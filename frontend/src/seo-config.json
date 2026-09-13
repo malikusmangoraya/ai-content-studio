@@ -1,0 +1,65 @@
+{
+  "home": {
+    "title": "Home | Project",
+    "description": "Welcome to Project — the leading ai platform. Discover our services, products, and more.",
+    "canonicalUrl": "https://project.com",
+    "ogType": "website",
+    "noIndex": false,
+    "schema": "software",
+    "ogLocale": "en_US"
+  },
+  "features": {
+    "title": "Features | Project",
+    "description": "Features — Project",
+    "canonicalUrl": "https://project.com/features",
+    "ogType": "article",
+    "noIndex": false,
+    "schema": "software",
+    "ogLocale": "en_US"
+  },
+  "pricing": {
+    "title": "Pricing | Project",
+    "description": "Pricing — Project",
+    "canonicalUrl": "https://project.com/pricing",
+    "ogType": "article",
+    "noIndex": false,
+    "schema": "offer",
+    "ogLocale": "en_US"
+  },
+  "blog": {
+    "title": "Blog | Project",
+    "description": "Read the latest articles and insights from Project.",
+    "canonicalUrl": "https://project.com/blog",
+    "ogType": "article",
+    "noIndex": false,
+    "schema": "blog",
+    "ogLocale": "en_US"
+  },
+  "docs": {
+    "title": "Documentation | Project",
+    "description": "Documentation — Project",
+    "canonicalUrl": "https://project.com/docs",
+    "ogType": "article",
+    "noIndex": false,
+    "schema": null,
+    "ogLocale": "en_US"
+  },
+  "about": {
+    "title": "About | Project",
+    "description": "Learn about Project, our mission, team, and story.",
+    "canonicalUrl": "https://project.com/about",
+    "ogType": "article",
+    "noIndex": false,
+    "schema": "organization",
+    "ogLocale": "en_US"
+  },
+  "contact": {
+    "title": "Contact | Project",
+    "description": "Get in touch with Project. We're here to help.",
+    "canonicalUrl": "https://project.com/contact",
+    "ogType": "article",
+    "noIndex": false,
+    "schema": "localBusiness",
+    "ogLocale": "en_US"
+  }
+}

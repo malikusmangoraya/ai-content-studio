@@ -1,0 +1,3941 @@
+{
+  "user_prompt": "Build an AI-powered content studio SaaS: blog writer, social captions, SEO meta generator, brand voice presets, team workspaces, and an AI chatbot. Monetization via subscription plans and credits.",
+  "project_name": "generated-website",
+  "generated_project_dir": "C:\\Users\\AZAM COMPUTERS\\OneDrive\\Desktop\\lumicorepro-core\\generated-projects\\generated-website-008",
+  "zip_archive_path": "",
+  "quality_gate_devops": {
+    "available": true,
+    "passed": false,
+    "status": "blocked",
+    "attempts": 4,
+    "maximum_attempts": 4,
+    "format": {
+      "command": "C:\\Program Files\\nodejs\\npx.CMD prettier --write --ignore-path .prettierignore -- generated-projects/generated-website-008",
+      "exit_code": 2,
+      "timed_out": false,
+      "duration_secs": 14.454,
+      "output": " ? undefined : { scale: 0.97 }}\n[\u001b[31merror\u001b[39m]   28 |         style={{\n[\u001b[31merror\u001b[39m] > 29 |           background: `linear-gradient(120deg, ${from}, ${via}, ${to})`,\n[\u001b[31merror\u001b[39m]      |                                           ^\n[\u001b[31merror\u001b[39m]   30 |           backgroundSize: '200% 200%',\n[\u001b[31merror\u001b[39m]   31 |         }}\n[\u001b[31merror\u001b[39m]   32 |         animate={\n[\u001b[31merror\u001b[39m] generated-projects/generated-website-008/frontend/src/components/ui/HolographicCard.jsx: SyntaxError: Identifier directly after number. (13:53)\n[\u001b[31merror\u001b[39m]   11 |   return (\n[\u001b[31merror\u001b[39m]   12 |     <motion.div\n[\u001b[31merror\u001b[39m] > 13 |       className={`relative overflow-hidden rounded-2xl ${className}`}\n[\u001b[31merror\u001b[39m]      |                                                     ^\n[\u001b[31merror\u001b[39m]   14 |       whileHover={{ scale: 1.02 }}\n[\u001b[31merror\u001b[39m]   15 |       transition={{ duration: 0.3, ease: [0.25, 0.46, 0.45, 0.94] }}\n[\u001b[31merror\u001b[39m]   16 |       {...props}\n[\u001b[31merror\u001b[39m] generated-projects/generated-website-008/frontend/src/config/structured-data.js: SyntaxError: Unterminated regular expression. (17:22)\n[\u001b[31merror\u001b[39m]   15 |   name: SITE_NAME,\n[\u001b[31merror\u001b[39m]   16 |   url: SITE_URL,\n[\u001b[31merror\u001b[39m] > 17 |   logo: `${SITE_URL}/logo.png`,\n[\u001b[31merror\u001b[39m]      |                      ^\n[\u001b[31merror\u001b[39m]   18 |   sameAs: [],\n[\u001b[31merror\u001b[39m]   19 | };\n[\u001b[31merror\u001b[39m]   20 |\n[\u001b[31merror\u001b[39m] generated-projects/generated-website-008/frontend/src/lib/theme.js: SyntaxError: Missing semicolon. (28:22)\n[\u001b[31merror\u001b[39m]   26 |\n[\u001b[31merror\u001b[39m]   27 |     // Apply the 'dark' class based on the determined preference.\n[\u001b[31merror\u001b[39m] > 28 |     // The original `pref === true || saved === 'dark'` is redundant,\n[\u001b[31merror\u001b[39m]      |                      ^\n[\u001b[31merror\u001b[39m]   29 |     // as `pref` already correctly reflects the desired boolean state.\n[\u001b[31merror\u001b[39m]   30 |     root.classList.toggle('dark', pref);\n[\u001b[31merror\u001b[39m]   31 |"
+    },
+    "lint": {
+      "command": "C:\\Program Files\\nodejs\\npx.CMD eslint --no-config-lookup --config scripts/eslint.generated.config.js generated-projects/generated-website-008 generated-projects/generated-website-008/frontend",
+      "exit_code": 1,
+      "timed_out": false,
+      "duration_secs": 18.29,
+      "files_checked": 241,
+      "output": "ult'\n\nC:\\Users\\AZAM COMPUTERS\\OneDrive\\Desktop\\lumicorepro-core\\generated-projects\\generated-website-008\\frontend\\src\\components\\motion\\BorderBeam.jsx\n  13:22  error  Parsing error: Unexpected token relative\n\nC:\\Users\\AZAM COMPUTERS\\OneDrive\\Desktop\\lumicorepro-core\\generated-projects\\generated-website-008\\frontend\\src\\components\\motion\\SpotlightGrid.jsx\n  61:8  error  Parsing error: Duplicate export 'default'\n\nC:\\Users\\AZAM COMPUTERS\\OneDrive\\Desktop\\lumicorepro-core\\generated-projects\\generated-website-008\\frontend\\src\\components\\motion\\TextMorph.jsx\n  60:8  error  Parsing error: Duplicate export 'default'\n\nC:\\Users\\AZAM COMPUTERS\\OneDrive\\Desktop\\lumicorepro-core\\generated-projects\\generated-website-008\\frontend\\src\\components\\ui\\GradientButton.jsx\n  29:24  error  Parsing error: Unexpected token linear\n\nC:\\Users\\AZAM COMPUTERS\\OneDrive\\Desktop\\lumicorepro-core\\generated-projects\\generated-website-008\\frontend\\src\\components\\ui\\HolographicCard.jsx\n  13:19  error  Parsing error: Unexpected token relative\n\nC:\\Users\\AZAM COMPUTERS\\OneDrive\\Desktop\\lumicorepro-core\\generated-projects\\generated-website-008\\frontend\\src\\config\\structured-data.js\n  17:10  error  Parsing error: Unexpected token $\n\nC:\\Users\\AZAM COMPUTERS\\OneDrive\\Desktop\\lumicorepro-core\\generated-projects\\generated-website-008\\frontend\\src\\layouts\\AppLayout.jsx\n  18:11  error  Raw <button> violates local component injection. Import ButtonMotion from @/components/ui/ButtonMotion instead  no-restricted-syntax\n\nC:\\Users\\AZAM COMPUTERS\\OneDrive\\Desktop\\lumicorepro-core\\generated-projects\\generated-website-008\\frontend\\src\\layouts\\LandingLayout.jsx\n  122:17  error  Raw <button> violates local component injection. Import ButtonMotion from @/components/ui/ButtonMotion instead  no-restricted-syntax\n\nC:\\Users\\AZAM COMPUTERS\\OneDrive\\Desktop\\lumicorepro-core\\generated-projects\\generated-website-008\\frontend\\src\\lib\\theme.js\n  28:22  error  Parsing error: Unexpected token pref\n\n✖ 10 problems (10 errors, 0 warnings)"
+    },
+    "build_verify": {
+      "enabled": true,
+      "verified": false,
+      "ok": false,
+      "builds": []
+    },
+    "self_heal_rounds": [
+      {
+        "attempt": 1,
+        "offending_files": [],
+        "format_exit": 2,
+        "lint_exit": 1,
+        "build_exit": null
+      },
+      {
+        "attempt": 2,
+        "offending_files": [],
+        "format_exit": 2,
+        "lint_exit": 1,
+        "build_exit": null
+      },
+      {
+        "attempt": 3,
+        "offending_files": [],
+        "format_exit": 2,
+        "lint_exit": 1,
+        "build_exit": null
+      }
+    ],
+    "self_correction": [
+      {
+        "attempt": 1,
+        "error_chars": 3732,
+        "feedback": {
+          "status": "error",
+          "reason": "Gemini API HTTP Error 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 7.438371965s.\",\n    \"status\": \"RESOURCE_EXHAUSTED\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.Help\",\n        \"links\": [\n          {\n            \"description\": \"Learn more about Gemini API quotas\",\n            \"url\": \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n          }\n        ]\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.QuotaFailure\",\n        \"violations\": [\n          {\n            \"quotaMetric\": \"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\n            \"quotaId\": \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\n            \"quotaDimensions\": {\n              \"location\": \"global\",\n              \"model\": \"gemini-2.5-flash\"\n            },\n            \"quotaValue\": \"20\"\n          }\n        ]\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.RetryInfo\",\n        \"retryDelay\": \"7s\"\n      }\n    ]\n  }\n}\n"
+        }
+      },
+      {
+        "attempt": 2,
+        "error_chars": 3732,
+        "feedback": {
+          "status": "error",
+          "reason": "Gemini API HTTP Error 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 31.616364623s.\",\n    \"status\": \"RESOURCE_EXHAUSTED\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.Help\",\n        \"links\": [\n          {\n            \"description\": \"Learn more about Gemini API quotas\",\n            \"url\": \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n          }\n        ]\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.QuotaFailure\",\n        \"violations\": [\n          {\n            \"quotaMetric\": \"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\n            \"quotaId\": \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\n            \"quotaDimensions\": {\n              \"location\": \"global\",\n              \"model\": \"gemini-2.5-flash\"\n            },\n            \"quotaValue\": \"20\"\n          }\n        ]\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.RetryInfo\",\n        \"retryDelay\": \"31s\"\n      }\n    ]\n  }\n}\n"
+        }
+      },
+      {
+        "attempt": 3,
+        "error_chars": 3732,
+        "feedback": {
+          "status": "error",
+          "reason": "Gemini API HTTP Error 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 57.153754688s.\",\n    \"status\": \"RESOURCE_EXHAUSTED\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.Help\",\n        \"links\": [\n          {\n            \"description\": \"Learn more about Gemini API quotas\",\n            \"url\": \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n          }\n        ]\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.QuotaFailure\",\n        \"violations\": [\n          {\n            \"quotaMetric\": \"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\n            \"quotaId\": \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\n            \"quotaDimensions\": {\n              \"location\": \"global\",\n              \"model\": \"gemini-2.5-flash\"\n            },\n            \"quotaValue\": \"20\"\n          }\n        ]\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.RetryInfo\",\n        \"retryDelay\": \"57s\"\n      }\n    ]\n  }\n}\n"
+        }
+      }
+    ],
+    "lint_files": [],
+    "github_recovery": {},
+    "note": "Quality gate FAILED — ZIP compilation blocked; project returned for self-correction."
+  },
+  "architect_enterprise_gate": {
+    "passed": false,
+    "blocked_zip": true,
+    "docs": {
+      "rules_dir": "C:\\Users\\AZAM COMPUTERS\\OneDrive\\Desktop\\lumicorepro-core\\project-rules",
+      "loaded": 5,
+      "required": 5,
+      "all_present": true,
+      "files": {
+        "PRD_MASTER_TEMPLATE.md": {
+          "loaded": true,
+          "anchors": {
+            "## Feature Scope": true,
+            "## Acceptance Criteria": true
+          }
+        },
+        "TRD_ENGINEERING_STANDARDS.md": {
+          "loaded": true,
+          "anchors": {
+            "## Dependency Pins": true,
+            "## React 19 Rules": true,
+            "## Backend Patterns": true
+          }
+        },
+        "UI_UX_DESIGN_TOKENS.md": {
+          "loaded": true,
+          "anchors": {
+            "## Color Tokens": true,
+            "## Glassmorphism": true,
+            "## Motion Profiles": true,
+            "## Conformance": true
+          }
+        },
+        "BACKEND_SCHEMA_SPEC.md": {
+          "loaded": true,
+          "anchors": {
+            "## Model Baseline": true,
+            "## Foreign Key Contract": true,
+            "## Concurrency Mandate": true,
+            "## Multi-Tenancy (Organizations + RBAC)": true
+          }
+        },
+        "SRS_SYSTEM_SPECIFICATIONS.md": {
+          "loaded": true,
+          "anchors": {
+            "## SEO Architecture": true,
+            "## Internationalization": true,
+            "## Code Quality Assurance": true
+          }
+        }
+      }
+    },
+    "verification": {
+      "prd": {
+        "name": "prd",
+        "doc": "PRD_MASTER_TEMPLATE.md",
+        "pass": false,
+        "checks": {
+          "fluid_ui": {
+            "pass": true,
+            "detail": "fluid tokens + fluid utilities",
+            "files": [],
+            "applies": true
+          },
+          "micro_interactions": {
+            "pass": true,
+            "detail": "artifacts present",
+            "files": [],
+            "applies": true
+          },
+          "lead_capture": {
+            "pass": true,
+            "detail": "artifacts present",
+            "files": [],
+            "applies": true
+          },
+          "mounted_motion_canvas": {
+            "pass": false,
+            "detail": "MotionCanvas not mounted in App.jsx",
+            "files": [
+              "frontend\\src\\App.jsx"
+            ],
+            "applies": true
+          },
+          "runtime_mode": {
+            "pass": true,
+            "detail": "runtime_mode=transactional matches layout_mode=enterprise",
+            "files": [],
+            "applies": true
+          }
+        },
+        "note": ""
+      },
+      "engineering": {
+        "name": "engineering",
+        "doc": "TRD_ENGINEERING_STANDARDS.md",
+        "pass": false,
+        "checks": {
+          "stack_pins": {
+            "pass": false,
+            "detail": "frontend/package.json missing",
+            "files": [
+              "frontend/package.json"
+            ],
+            "applies": true
+          },
+          "state_topology": {
+            "pass": false,
+            "detail": "provider stack missing",
+            "files": [
+              "frontend\\src\\App.jsx"
+            ],
+            "applies": true
+          },
+          "optimization": {
+            "pass": true,
+            "detail": "lazy layouts + CLS guard",
+            "files": [],
+            "applies": true
+          },
+          "backend_blueprint": {
+            "pass": true,
+            "detail": "backend blueprint conformant",
+            "files": [],
+            "applies": true
+          },
+          "component_injection": {
+            "pass": true,
+            "detail": "rigid local component injection (no raw <button>)",
+            "files": [],
+            "applies": true
+          }
+        },
+        "note": ""
+      },
+      "design": {
+        "name": "design",
+        "doc": "UI_UX_DESIGN_TOKENS.md",
+        "pass": false,
+        "checks": {
+          "tokens": {
+            "pass": true,
+            "detail": "semantic token mapping present",
+            "files": [],
+            "applies": true
+          },
+          "glass": {
+            "pass": true,
+            "detail": "glassmorphism spec present",
+            "files": [],
+            "applies": true
+          },
+          "motion": {
+            "pass": true,
+            "detail": "motion profiles present",
+            "files": [],
+            "applies": true
+          },
+          "theme": {
+            "pass": false,
+            "detail": "theme.js / App import missing",
+            "files": [
+              "frontend\\src\\lib\\theme.js"
+            ],
+            "applies": true
+          },
+          "raw_hex": {
+            "pass": false,
+            "detail": "raw hex literals: 8",
+            "files": [
+              "frontend/src/components/motion/BorderBeam.jsx:22",
+              "frontend/src/components/ui/GradientButton.jsx:14",
+              "frontend/src/components/ui/GradientButton.jsx:15",
+              "frontend/src/components/ui/GradientButton.jsx:16",
+              "frontend/src/components/ui/HolographicCard.jsx:26",
+              "frontend/src/components/ui/HolographicCard.jsx:28",
+              "frontend/src/components/ui/HolographicCard.jsx:43",
+              "frontend/src/components/ui/HolographicCard.jsx:45"
+            ],
+            "applies": true
+          }
+        },
+        "note": ""
+      },
+      "schema_srs": {
+        "name": "BACKEND_SCHEMA_SPEC.md",
+        "doc": "BACKEND_SCHEMA_SPEC.md + SRS_SYSTEM_SPECIFICATIONS.md",
+        "pass": false,
+        "checks": {
+          "baseline": {
+            "pass": true,
+            "detail": "14/14 models present",
+            "files": [],
+            "applies": true
+          },
+          "fk_contract": {
+            "pass": true,
+            "detail": "FK contract honored",
+            "files": [
+              "backend\\models\\index.js"
+            ],
+            "applies": true
+          },
+          "concurrency": {
+            "pass": true,
+            "detail": "row-lock checkout flow present (transaction:services\\orderService.js, row lock:services\\orderService.js, stock guard:services\\orderService.js, atomic decrement:services\\couponService.js)",
+            "files": [],
+            "applies": true
+          },
+          "rule_lockfile": {
+            "pass": true,
+            "detail": "docs rule lockfile honored (2 applicable rules)",
+            "files": [
+              "backend\\models\\Role.js",
+              "backend\\models\\index.js"
+            ],
+            "applies": true
+          },
+          "jsonld": {
+            "pass": false,
+            "detail": "missing JSON-LD types: WebPage, Service, LocalBusiness, Person, Article, Review, ImageObject",
+            "files": [
+              "frontend\\src\\config\\structured-data.js"
+            ],
+            "applies": true
+          },
+          "open_graph": {
+            "pass": false,
+            "detail": "missing meta: og:title, og:description, og:image, og:url, og:type, og:site_name, og:locale, twitter:card",
+            "files": [
+              "frontend\\index.html"
+            ],
+            "applies": true
+          },
+          "headings": {
+            "pass": true,
+            "detail": "heading hierarchy clean",
+            "files": [],
+            "applies": true
+          },
+          "i18n_rtl": {
+            "pass": true,
+            "detail": "i18n bootstrap + RTL + hook present",
+            "files": [],
+            "applies": true
+          },
+          "devops": {
+            "pass": true,
+            "detail": "ESLint config + .prettierignore + quality_gate wired",
+            "files": [],
+            "applies": true
+          }
+        },
+        "note": "SRS_SYSTEM_SPECIFICATIONS.md"
+      }
+    },
+    "violating_files": [
+      "frontend/src/App.jsx",
+      "frontend/package.json",
+      "frontend/src/lib/theme.js",
+      "frontend/src/components/motion/BorderBeam.jsx",
+      "frontend/src/components/ui/GradientButton.jsx",
+      "frontend/src/components/ui/HolographicCard.jsx",
+      "frontend/src/config/structured-data.js",
+      "frontend/index.html"
+    ],
+    "self_heal_rounds": [
+      {
+        "round": 1,
+        "healed": 5,
+        "files": [
+          "frontend/src/App.jsx",
+          "frontend/package.json",
+          "frontend/src/lib/theme.js",
+          "frontend/src/components/motion/BorderBeam.jsx",
+          "frontend/src/components/ui/GradientButton.jsx",
+          "frontend/src/components/ui/HolographicCard.jsx",
+          "frontend/src/config/structured-data.js",
+          "frontend/index.html"
+        ]
+      },
+      {
+        "round": 2,
+        "healed": 5,
+        "files": [
+          "frontend/src/App.jsx",
+          "frontend/package.json",
+          "frontend/src/lib/theme.js",
+          "frontend/src/components/motion/BorderBeam.jsx",
+          "frontend/src/components/ui/GradientButton.jsx",
+          "frontend/src/components/ui/HolographicCard.jsx",
+          "frontend/src/config/structured-data.js",
+          "frontend/index.html"
+        ]
+      },
+      {
+        "round": 3,
+        "healed": 5,
+        "files": [
+          "frontend/src/App.jsx",
+          "frontend/package.json",
+          "frontend/src/lib/theme.js",
+          "frontend/src/components/motion/BorderBeam.jsx",
+          "frontend/src/components/ui/GradientButton.jsx",
+          "frontend/src/components/ui/HolographicCard.jsx",
+          "frontend/src/config/structured-data.js",
+          "frontend/index.html"
+        ]
+      }
+    ],
+    "project_name": "",
+    "reason": "prd: 1 check(s) red; engineering: 2 check(s) red; design: 2 check(s) red; schema_srs: 2 check(s) red"
+  },
+  "instructions_file_path": "C:\\Users\\AZAM COMPUTERS\\OneDrive\\Desktop\\lumicorepro-core\\generated-projects\\generated-website-008\\INSTRUCTIONS.md",
+  "execution_time_seconds": 1113.85,
+  "pipeline_version": "15-phase-enterprise-v3.5",
+  "status": "partial",
+  "pipeline_health": {
+    "score": 92,
+    "critical_failures": [],
+    "non_critical_failures": [
+      "architect_enterprise_verification",
+      "quality_gate_devops"
+    ],
+    "status": "healthy"
+  },
+  "phase_statistics": {
+    "total_phases": 15,
+    "phases_failed": 2,
+    "phase_timings": {
+      "Phase 1 - Market Analysis": 0.003,
+      "Phase 2 - Requirement Analysis": 8.958,
+      "Phase 3 - Schema Selection": 0.078,
+      "Phase 3 - Backend Selection": 1.306,
+      "Phase 3 - Tech Stack Selection": 0.003,
+      "Phase 4 - Trending Features": 0.003,
+      "Phase 5 - Asset Selection": 0.226,
+      "Phase 5 - Template Selection": 0.234,
+      "Phase 5 - Component Selection": 0.42,
+      "phase_11_currency_localization": 0.002,
+      "phase_11_i18n_generation": 0.049,
+      "phase_12_security_posture": 0.004,
+      "phase_12_cost_model": 0.0,
+      "phase_12_license_stamp": 0.009,
+      "phase_12_compliance": 0.02,
+      "phase_12_accessibility": 0.905,
+      "phase_13_seo_automation": 0.022,
+      "phase_13_cdn_optimization": 0.025,
+      "phase_14_performance_budget": 0.02,
+      "phase_14_webhook_manager": 0.025,
+      "phase_14_analytics_pipeline": 0.039,
+      "phase_14_ab_testing": 0.04,
+      "phase_15_global_deployment": 0.027
+    },
+    "retries_per_phase": {
+      "Phase 1 - Market Analysis": 0,
+      "Phase 2 - Requirement Analysis": 0,
+      "Phase 3 - Backend Selection": 0,
+      "Phase 3 - Schema Selection": 0,
+      "Phase 3 - Tech Stack Selection": 0,
+      "Phase 4 - Trending Features": 2,
+      "Phase 5 - Template Selection": 0,
+      "Phase 5 - Component Selection": 0,
+      "Phase 5 - Asset Selection": 0,
+      "phase_11_currency_localization": 0,
+      "phase_11_i18n_generation": 0,
+      "phase_12_compliance": 0,
+      "phase_12_accessibility": 0,
+      "phase_12_security_posture": 0,
+      "phase_12_license_stamp": 0,
+      "phase_12_cost_model": 0,
+      "phase_13_seo_automation": 0,
+      "phase_13_cdn_optimization": 0,
+      "phase_14_performance_budget": 0,
+      "phase_14_analytics_pipeline": 0,
+      "phase_14_ab_testing": 0,
+      "phase_14_webhook_manager": 0,
+      "phase_15_global_deployment": 0
+    }
+  },
+  "phases_completed": [
+    "market_analysis",
+    "requirement_analysis",
+    "tech_stack_selection",
+    "trending_features_injection",
+    "resource_assembly_planning",
+    "code_generation",
+    "quality_verification",
+    "improvement_recommendations",
+    "competitive_benchmark_delivery",
+    "international_delivery",
+    "localization_and_i18n",
+    "compliance_and_accessibility",
+    "seo_and_cdn_optimization",
+    "performance_growth_and_webhooks",
+    "multi_cloud_global_deployment"
+  ],
+  "phase_failures": [
+    "architect_enterprise_verification",
+    "quality_gate_devops"
+  ],
+  "phase_results": {
+    "phase_1_social_signals": {
+      "website_type": "creative",
+      "industry": "personal",
+      "ok": false,
+      "reason": "reddit: reddit channel requires login-backed tooling (opencli/twitter-cli) not found; agent-reach reports active_backend=null; reddit: reddit channel requires login-backed tooling (opencli/twitter-cli) not found; agent-reach reports active_backend=null",
+      "generated_at": "2026-09-13T08:30:01+00:00",
+      "channels_available": {
+        "reddit": false,
+        "twitter": false
+      },
+      "fragments": [],
+      "complaints": [],
+      "preferred_features": [],
+      "design_topics": [],
+      "risk_flags": []
+    },
+    "phase_1_market_analysis": {
+      "industry": "personal",
+      "website_type": "creative",
+      "competitors": [
+        "Behance",
+        "Dribbble",
+        "GitHub Pages",
+        "LinkedIn"
+      ],
+      "market_trends": [
+        "Interactive 3D portfolio",
+        "AI project descriptions",
+        "GitHub integration"
+      ],
+      "conversion_drivers": [
+        "project_quality",
+        "contact_form",
+        "testimonials",
+        "social_proof"
+      ],
+      "target_lighthouse_score": 96,
+      "market_profile": {
+        "market_size": "niche",
+        "avg_conversion": "4-7%",
+        "mobile_share": "62%",
+        "pk_growth": "+28% YoY"
+      },
+      "pk_market_growth": "+25% YoY",
+      "global_market_size": "$500B freelance",
+      "roi_opportunities": [
+        "social_share",
+        "newsletter_signup",
+        "pwa_install"
+      ],
+      "differentiation_opportunities": [
+        "Missing high-ROI driver: project_quality",
+        "Missing high-ROI driver: contact_form",
+        "Missing high-ROI driver: testimonials",
+        "Missing high-ROI driver: social_proof",
+        "Growth opportunity: social_share",
+        "Growth opportunity: newsletter_signup",
+        "Growth opportunity: pwa_install"
+      ],
+      "recommended_positioning": "Premium personal creative platform with positioned for +25% YoY market growth.",
+      "mobile_priority": false,
+      "whatsapp_market": false
+    },
+    "phase_2_requirement_analysis": {
+      "website_type": "saas",
+      "industry": "ai",
+      "frontend": "Next.js 14 (App Router), TypeScript, Tailwind CSS, Shadcn UI, Tiptap Rich Text Editor, Framer Motion, Zustand",
+      "backend": "Node.js with Next.js API Routes, Vercel AI SDK, LangChain, BullMQ (Redis job queue for long-running AI tasks)",
+      "database": "PostgreSQL (Supabase/Prisma ORM), Redis (Caching & Rate Limiting), Pgvector (Vector embeddings for brand voice & RAG chatbot)",
+      "features": [
+        "pricing",
+        "dashboard",
+        "whatsapp_float",
+        "hero",
+        "ai_chat",
+        "dark_mode",
+        "pwa_support",
+        "personalization",
+        "i18n_multilingual",
+        "features",
+        "social_proof",
+        "contact",
+        "exit_intent_popup"
+      ],
+      "style": [
+        "Modern Sleek SaaS Aesthetic",
+        "Dark Mode First UI",
+        "Indigo & Violet Vibrant Gradients",
+        "Clean Grid & Card Layouts",
+        "Polished Glassmorphism Accent Components"
+      ],
+      "primary_color_hint": "#ef4444",
+      "preferred_theme": "dark",
+      "color_palette_hints": [
+        "#ef4444"
+      ],
+      "rtl_support": false,
+      "is_ambiguous": false,
+      "ambiguity_reason": "",
+      "clarifying_options": [],
+      "original_prompt": "Build an AI-powered content studio SaaS: blog writer, social captions, SEO meta generator, brand voice presets, team workspaces, and an AI chatbot. Monetization via subscription plans and credits.",
+      "design_style": "skipper",
+      "layout_mode": "enterprise",
+      "animation_style": "modern",
+      "color_scheme": "cyan",
+      "layout_style": "multi_page",
+      "font_style": "sans_serif",
+      "pages": [
+        "Home",
+        "About",
+        "Services",
+        "Contact"
+      ],
+      "extra_features": [
+        "cookie_consent",
+        "responsive_navbar",
+        "dark_mode_toggle"
+      ],
+      "trending_features": [
+        "social_proof",
+        "whatsapp_float",
+        "ai_chat",
+        "pwa_support",
+        "personalization",
+        "i18n_multilingual",
+        "exit_intent_popup"
+      ],
+      "component_contract": "COMPONENT CONTRACT (absolute alias paths; use local components, NEVER generic markup when one exists):\n- @/components/ui/Accordion.jsx # props: items, allowMultiple, defaultOpen, openItems, onChange, onToggle, animate, className, itemClassName\n- @/components/ui/Alert.jsx # props: children, variant, title, dismissible, onDismiss, onClose, icon, animate, animationDelay, className | variant=info|container|icon|Icon\n- @/components/common/Analytics.jsx # props: (n/a)\n- @/components/ui/AnimatedNumber.jsx # props: value, decimals, separator, prefix, suffix, duration, className, as\n- @/components/ui/Avatar.jsx # props: src, alt, name, size, status, animate, animationDelay, className, onClick, onError | size=xs|sm|md|lg|xl\n- @/components/ui/Badge.jsx # props: children, variant, size, dot, removable, onRemove, onClick, animate, animationDelay, className | variant=default|secondary|success|warning|danger|info|outline | size=sm|md|lg\n- @/components/motion/BentoGrid.jsx # props: children, className, columns, md, lg, gap\n- @/components/ui/BlockBar.jsx # props: value, max, segments, tone, label, showValue, className, inverted\n- @/components/motion/BorderBeam.jsx # props: children, className, color, speed\n- @/components/common/BrandLogo.jsx # props: size, className | size=xs|sm|md|lg|xl\n- @/components/ui/Breadcrumb.jsx # props: items, separator, showHome, homeLabel, homeHref, onItemClick, onHomeClick, animate, className, itemClassName\n- @/components/ui/Button.jsx # props: children, variant, size, loading, disabled, fullWidth, leftIcon, rightIcon, animate, animationDelay, className, type, onClick, onMouseEnter, onMouseLeave, onFocus, onBlur | variant=primary|secondary|danger|success|warning|info|outline|ghost|link | size=xs|sm|md|lg|xl\n- @/components/ui/ButtonMotion.jsx # props: children, className, hoverScale, tapScale, hoverY\n- @/components/ecommerce/BuyTemplateBanner.jsx # props: templateName, price, checkoutUrl\n- @/components/ui/Card.jsx # props: children, className, hoverable, padding, bordered, shadow, animate, animationDelay, as, reveal, onClick, onMouseEnter, onMouseLeave\n- @/components/ui/CommandPalette.jsx # props: isOpen, onClose, items\n- @/components/common/ContactForm.jsx # props: onSuccess, onError, submitLabel, className\n- @/components/common/CookieConsent.jsx # props: (n/a)\n- @/components/CurrencySelector.jsx # props: (n/a)\n- @/components/motion/CyberGridCanvas.jsx # props: className, nodeColor, density\n- @/components/ui/Divider.jsx # props: orientation, variant, label, className | variant=solid|dashed|dotted\n- @/components/ui/Dock.jsx # props: items, magnification, distance, className, panelClassName\n- @/components/ui/Dropdown.jsx # props: trigger, children, label, align, open, defaultOpen, onOpenChange, onClose, className, menuClassName, closeOnSelect, animate\n- @/components/ui/Empty.jsx # props: title, description, icon, action, onAction, animate, className\n- @/components/common/ErrorBoundary.jsx # props: (n/a)\n- @/components/common/FAQAccordion.jsx # props: items, a, Vite, Netlify, title, subtitle, licensing\n- @/components/business/FAQItem.jsx # props: question, answer, open, defaultOpen, onToggle, onChange, animate, animationDelay, className\n- @/components/navigation/GlassNavbar.jsx # props: projectName\n- @/components/ui/GradientButton.jsx # props: children, className, from, via, to, animate, disabled\n- @/components/common/Grid.jsx # props: children, cols, gap, as, animate, animationDelay, className\n- @/components/motion/HeroCanvas.jsx # props: (n/a)\n- @/components/motion/HeroSection.jsx # props: children, className\n- @/components/ui/HolographicCard.jsx # props: children, className, borderWidth\n- @/components/ui/IconButton.jsx # props: icon, label, variant, size, disabled, loading, tooltip, animate, animationDelay, className, onClick, onMouseEnter, onMouseLeave | variant=primary|secondary|ghost|outline|danger | size=sm|md|lg\n- @/components/forms/Input.jsx # props: label, type, error, helperText, required, disabled, leftIcon, rightIcon, animate, animationDelay, className, inputClassName, id, onChange, onFocus, onBlur, onKeyDown\n- @/components/common/Language.jsx # props: currentLang, onLanguageChange, className\n- @/components/common/LazyImage.jsx # props: src, alt, className, placeholder, fallback, width, height\n- @/components/common/LicenseWatermark.jsx # props: product, onActivate\n- @/components/ui/Loading.jsx # props: text, fullScreen, size, animate, className | size=xs|sm|md|lg|xl\n- @/components/motion/MagneticButton.jsx # props: children, className, strength, variant, rightIcon | variant=primary|secondary|outline|ghost\n- @/components/ui/Marquee.jsx # props: items, speed, reverse, pauseOnHover, className, renderItem\n- @/components/ui/Modal.jsx # props: open, onClose, onOpenChange, title, description, children, footer, size, closeOnOverlayClick, closeOnEscape, showCloseButton, className, overlayClassName | size=sm|md|lg|xl|full\n- @/components/ui/ModernFooter.jsx # props: projectName\n- @/components/ui/NeumorphButton.jsx # props: children, size, pressed, accent, disabled, className, type | size=sm|md|lg\n- @/components/common/PageSEO.jsx # props: title, description, keywords, canonicalUrl, schema, noIndex\n- @/components/ui/Pagination.jsx # props: currentPage, totalPages, totalItems, pageSize, onPageChange, onChange, siblingCount, showPageNumbers, showFirstLast, animate, className\n- @/components/motion/ParticleField3D.jsx # props: count, spread, speed, color, size, opacity | size=xs|sm|md|lg|xl\n- @/components/ui/PixelButton.jsx # props: children, size, variant, disabled, className, type | variant=primary|secondary|ghost | size=sm|md|lg\n- @/components/ui/PixelCard.jsx # props: children, className, title, icon, corners\n- @/components/business/PricingCard.jsx # props: name, price, period, description, features, highlighted, animationDelay, onSelect, className\n- @/components/business/PricingGrid.jsx # props: plans, columns, onPlanSelect, className\n- @/components/ecommerce/PricingTable.jsx # props: title, subtitle, downgrade\n- @/components/ui/Progress.jsx # props: value, max, variant, size, showLabel, label, indeterminate, animate, onComplete, className | variant=primary|success|warning|danger|info | size=xs|sm|md|lg|xl\n- @/components/motion/Reveal.jsx # props: children, delay, direction, className, as\n- @/components/common/SEO.jsx # props: title, description, launch, keywords, fullstack, ecommerce, dashboard, tailwindcss, nodejs, express, ogImage, ogType, canonicalUrl, locale, twitterSite, noIndex, schema, hreflang, defaultLanguage\n- @/components/SandboxPreview.jsx # props: runId, onClose\n- @/components/motion/Scene3D.jsx # props: children, className, camera, fov, dpr, gl, alpha, style\n- @/components/forms/Select.jsx # props: label, error, required, className, children\n- @/components/gates/SetupGate.jsx # props: children\n- @/components/ui/Skeleton.jsx # props: className, variant, shimmer | variant=text|circle|rect|card|button|avatar|image\n- @/components/common/SkipToContent.jsx # props: className\n- @/components/ui/Spinner.jsx # props: size, color, label, className | size=xs|sm|md|lg|xl\n- @/components/ui/SpotlightCard.jsx # props: children, className, interactive, spotlight, radius, onMouseMove, onMouseLeave\n- @/components/motion/SpotlightGrid.jsx # props: children, className, intensity, radius\n- @/components/motion/StaggerGroup.jsx # props: children, className\n- @/components/forms/Switch.jsx # props: label, checked, onChange, error, helperText, disabled, size, className, id | size=sm\n- @/components/ui/Table.jsx # props: head, rows, className, caption\n- @/components/ui/Tabs.jsx # props: tabs, activeTab, defaultTab, onChange, onTabChange, variant, animate, className, tabClassName, contentClassName | variant=primary|secondary|outline|ghost\n- @/components/common/TestimonialGrid.jsx # props: title, subtitle, creators, testimonials, role, avatar, rating, content\n- @/components/ui/TextAnimate.jsx # props: text, as, delay, interval, variant, className | variant=primary|secondary|outline|ghost\n- @/components/motion/TextMorph.jsx # props: phrases, className, interval, typeSpeed, deleteSpeed, pauseTime\n- @/components/forms/Textarea.jsx # props: label, error, helperText, required, disabled, rows, maxLength, showCount, className, id, value\n- @/components/common/ThemeCustomizer.jsx # props: (n/a)\n- @/components/common/ThemeProvider.jsx # props: children\n- @/components/ui/TiltCard.jsx # props: children, className, tilt, shadow, scale\n- @/components/ui/Tooltip.jsx # props: children, content, position, delay, open, onOpenChange, className\n- @/components/common/CaptchaTurnstile.jsx # props: siteKey, onVerify, theme, size | size=xs|sm|md|lg|xl\n- @/components/ui/Typewriter.jsx # props: words, typingSpeed, deletingSpeed, pauseMs, loop, cursor, className\n- @/components/common/UniqueLogo.jsx # props: name, size | size=xs|sm|md|lg|xl\n- @/components/VisualCanvas.jsx # props: previewUrl, onPromptSubmit, className",
+      "engineering_matrix": {
+        "loaded": true,
+        "all_present": true,
+        "docs": {
+          "PRD_MASTER_TEMPLATE.md": {
+            "loaded": true,
+            "anchors_ok": true
+          },
+          "TRD_ENGINEERING_STANDARDS.md": {
+            "loaded": true,
+            "anchors_ok": true
+          },
+          "UI_UX_DESIGN_TOKENS.md": {
+            "loaded": true,
+            "anchors_ok": true
+          },
+          "BACKEND_SCHEMA_SPEC.md": {
+            "loaded": true,
+            "anchors_ok": true
+          },
+          "SRS_SYSTEM_SPECIFICATIONS.md": {
+            "loaded": true,
+            "anchors_ok": true
+          }
+        },
+        "component_registry_count": 80
+      },
+      "deployment_mode": "enterprise",
+      "has_api": true,
+      "runtime_mode": "transactional",
+      "region": "NA"
+    },
+    "phase_3_tech_stack": {
+      "frontend": {
+        "framework": "react",
+        "bundler": "vite",
+        "styling": "tailwindcss",
+        "charts": "recharts"
+      },
+      "backend": {
+        "runtime": "node",
+        "framework": "express",
+        "auth": "jwt+bcrypt",
+        "selected_module": "E-Commerce Modular Base API",
+        "module_path": "backend-library/ecommerce-base"
+      },
+      "database": {
+        "engine": "postgresql",
+        "orm": "raw-sql",
+        "cache": "redis-recommended",
+        "schemas": [
+          "E-Commerce Master Schema",
+          "Users & Auth Schema"
+        ],
+        "schema_count": 2
+      },
+      "payments": "stripe-subscriptions",
+      "deployment_targets": [
+        "vercel",
+        "aws",
+        "gcp"
+      ],
+      "scale_considerations": [
+        "enterprise"
+      ],
+      "rationale": "React + Vite chosen for saas due to component reuse from the shared UI library, fast HMR, and postgresql compatibility for structured data."
+    },
+    "phase_4_trending_features": {
+      "injected_count": 7,
+      "features": [
+        {
+          "id": "social_proof",
+          "name": "Social Proof System",
+          "category": "conversion",
+          "tags": [
+            "ecommerce",
+            "saas",
+            "business",
+            "general"
+          ],
+          "description": "Live purchase notifications, review highlights, and trust badges.",
+          "components": [
+            "TestimonialSlider",
+            "Testimonial"
+          ],
+          "roi_score": 95,
+          "priority": "critical"
+        },
+        {
+          "id": "whatsapp_float",
+          "name": "WhatsApp Floating Chat Button",
+          "category": "conversion",
+          "tags": [
+            "restaurant",
+            "realestate",
+            "healthcare",
+            "fitness",
+            "business",
+            "general"
+          ],
+          "description": "Sticky floating WhatsApp button. Converts 3-5x better than contact forms in South Asian & Middle Eastern markets.",
+          "components": [
+            "WhatsAppFloat"
+          ],
+          "roi_score": 94,
+          "priority": "critical"
+        },
+        {
+          "id": "ai_chat",
+          "name": "AI Shopping Assistant",
+          "category": "support",
+          "tags": [
+            "ecommerce",
+            "saas",
+            "healthcare",
+            "general"
+          ],
+          "description": "Context-aware AI chat for product discovery and customer support.",
+          "components": [
+            "ChatBox",
+            "ChatInput",
+            "MessageList"
+          ],
+          "roi_score": 92,
+          "priority": "critical"
+        },
+        {
+          "id": "pwa_support",
+          "name": "Progressive Web App (PWA)",
+          "category": "performance",
+          "tags": [
+            "general",
+            "ecommerce",
+            "restaurant",
+            "healthcare",
+            "saas"
+          ],
+          "description": "Offline support, install prompt, push notifications, and home screen icon. PWA boosts retention by 36% on mobile.",
+          "components": [
+            "PWAInstallBanner"
+          ],
+          "roi_score": 91,
+          "priority": "critical"
+        },
+        {
+          "id": "personalization",
+          "name": "Personalized Recommendations",
+          "category": "conversion",
+          "tags": [
+            "ecommerce",
+            "electronics",
+            "saas",
+            "education"
+          ],
+          "description": "Trending, recently viewed, and category-based product suggestions.",
+          "components": [
+            "ProductGrid",
+            "ProductCard"
+          ],
+          "roi_score": 90,
+          "priority": "high"
+        },
+        {
+          "id": "i18n_multilingual",
+          "name": "Multi-Language / i18n Support",
+          "category": "international",
+          "tags": [
+            "general",
+            "ecommerce",
+            "saas",
+            "business",
+            "travel",
+            "healthcare"
+          ],
+          "description": "English, Urdu, Arabic (RTL), French, Spanish, German language switching with locale-based formatting.",
+          "components": [
+            "Language"
+          ],
+          "roi_score": 89,
+          "priority": "critical"
+        },
+        {
+          "id": "exit_intent_popup",
+          "name": "Exit-Intent Popup",
+          "category": "conversion",
+          "tags": [
+            "ecommerce",
+            "saas",
+            "business",
+            "blog"
+          ],
+          "description": "Smart popup triggered on exit intent. Capture email, offer discount, or show lead magnet. Recovers 10-15% abandoning visitors.",
+          "components": [
+            "Modal",
+            "NewsletterSignup"
+          ],
+          "roi_score": 88,
+          "priority": "high"
+        }
+      ],
+      "feature_ids": [
+        "social_proof",
+        "whatsapp_float",
+        "ai_chat",
+        "pwa_support",
+        "personalization",
+        "i18n_multilingual",
+        "exit_intent_popup"
+      ],
+      "required_components": [
+        "Testimonial",
+        "ProductCard",
+        "PWAInstallBanner",
+        "Language",
+        "Modal",
+        "NewsletterSignup",
+        "ChatInput",
+        "MessageList",
+        "TestimonialSlider",
+        "ChatBox",
+        "WhatsAppFloat",
+        "ProductGrid"
+      ],
+      "market_alignment": [
+        "Interactive 3D portfolio",
+        "AI project descriptions",
+        "GitHub integration"
+      ]
+    },
+    "phase_5_assembly_plan": {
+      "project_name": "generated-website",
+      "steps": 10,
+      "ai_tasks": 13
+    },
+    "engineering_matrix": {
+      "loaded": true,
+      "all_present": true,
+      "docs": {
+        "PRD_MASTER_TEMPLATE.md": {
+          "loaded": true,
+          "anchors_ok": true
+        },
+        "TRD_ENGINEERING_STANDARDS.md": {
+          "loaded": true,
+          "anchors_ok": true
+        },
+        "UI_UX_DESIGN_TOKENS.md": {
+          "loaded": true,
+          "anchors_ok": true
+        },
+        "BACKEND_SCHEMA_SPEC.md": {
+          "loaded": true,
+          "anchors_ok": true
+        },
+        "SRS_SYSTEM_SPECIFICATIONS.md": {
+          "loaded": true,
+          "anchors_ok": true
+        }
+      },
+      "component_registry_count": 80
+    },
+    "phase_6_layout_mode": {
+      "mode": "enterprise",
+      "runtime_mode": "transactional",
+      "scaffold": "master-express-backend hydrated from backend-library",
+      "models_mounted": 25,
+      "models": [
+        "Address",
+        "AnalyticsEvent",
+        "AuditLog",
+        "Booking",
+        "Cart",
+        "CartItem",
+        "Category",
+        "Coupon",
+        "Doctor",
+        "Membership",
+        "Notification",
+        "Order",
+        "Organization",
+        "Payment",
+        "Permission",
+        "Plan",
+        "Product",
+        "Review",
+        "Role",
+        "Service",
+        "Subscription",
+        "SystemConfig",
+        "User",
+        "WebhookEvent",
+        "Wishlist"
+      ],
+      "route_groups_mapped": 24,
+      "routes": [
+        "address",
+        "ai",
+        "analytics",
+        "auth",
+        "booking",
+        "business",
+        "cart",
+        "coupon",
+        "dashboard",
+        "health",
+        "license",
+        "notification",
+        "order",
+        "org",
+        "payment",
+        "plan",
+        "playbook",
+        "product",
+        "search",
+        "settings",
+        "subscription",
+        "upload",
+        "user",
+        "wishlist"
+      ],
+      "queue": "Redis + BullMQ (backend/services/queue, backend/workers/worker.js)",
+      "axios_interceptor": "frontend/src/services/api.js -> /api/* via nginx gateway",
+      "database": "Sequelize — PostgreSQL/MySQL ready (DATABASE_URL + DB_DIALECT)",
+      "generation_matrix": {
+        "runtime_mode": "transactional",
+        "artifacts": [
+          "index.css",
+          "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/hooks/useInView.js",
+          "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/components/common/MotionCanvas.jsx",
+          "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/components/common/MotionSystems.jsx",
+          "framer-motion:already-present",
+          "already-mounted",
+          "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/services/analyticsBus.js",
+          "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/components/common/LeadForm.jsx",
+          "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/components/checkout/CheckoutFlow.jsx",
+          "C:\\Users\\AZAM COMPUTERS\\OneDrive\\Desktop\\lumicorepro-core\\generated-projects\\generated-website-008\\GENERATION-MATRIX.md"
+        ],
+        "fluid_ui": {
+          "applied": true,
+          "file": "index.css"
+        },
+        "micro_interactions": {
+          "components": [
+            "MotionCanvas",
+            "Reveal",
+            "MagneticButton",
+            "TiltCard",
+            "HoverGlow"
+          ],
+          "mounted_in_app": false,
+          "artifacts": [
+            "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/hooks/useInView.js",
+            "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/components/common/MotionCanvas.jsx",
+            "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/components/common/MotionSystems.jsx",
+            "framer-motion:already-present",
+            "already-mounted"
+          ]
+        },
+        "lead_capture": {
+          "lead_form": "frontend/src/components/common/LeadForm.jsx",
+          "checkout": "frontend/src/components/checkout/CheckoutFlow.jsx",
+          "analytics_bus": "frontend/src/services/analyticsBus.js",
+          "artifacts": [
+            "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/services/analyticsBus.js",
+            "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/components/common/LeadForm.jsx",
+            "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/components/checkout/CheckoutFlow.jsx"
+          ]
+        },
+        "matrix_doc": "C:\\Users\\AZAM COMPUTERS\\OneDrive\\Desktop\\lumicorepro-core\\generated-projects\\generated-website-008\\GENERATION-MATRIX.md"
+      },
+      "platform_injection": {
+        "runtime_mode": "transactional",
+        "artifacts": [
+          "frontend/src/index.css",
+          "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/lib/queryClient.js",
+          "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/hooks/useApiQuery.js",
+          "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/lib/AppProviders.jsx",
+          "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/store/useAppStore.js",
+          "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/layouts/LandingLayout.jsx",
+          "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/layouts/AppLayout.jsx",
+          "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/components/common/LayoutSkeleton.jsx",
+          "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/lib/LazyLayouts.jsx",
+          "C:\\Users\\AZAM COMPUTERS\\OneDrive\\Desktop\\lumicorepro-core\\generated-projects\\generated-website-008\\PLATFORM-INJECTION.md"
+        ],
+        "frontend_stack": {
+          "status": "skip",
+          "reason": "frontend/package.json missing"
+        },
+        "state_topology": {
+          "status": "ok",
+          "artifacts": {
+            "queryClient": "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/lib/queryClient.js",
+            "useApiQuery": "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/hooks/useApiQuery.js",
+            "AppProviders": "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/lib/AppProviders.jsx",
+            "zustand_store": "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/store/useAppStore.js"
+          },
+          "provider_wrapped": false,
+          "app_path": null
+        },
+        "lazy_layouts": {
+          "status": "ok",
+          "artifacts": {
+            "layout_landing": "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/layouts/LandingLayout.jsx",
+            "layout_app": "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/layouts/AppLayout.jsx",
+            "layout_skeleton": "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/components/common/LayoutSkeleton.jsx",
+            "lazy_layout_registry": "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/lib/LazyLayouts.jsx"
+          }
+        },
+        "cls_budget": {
+          "status": "ok",
+          "file": "frontend/src/index.css"
+        },
+        "backend_blueprint": {
+          "controllers": {
+            "pass": true,
+            "hint": ""
+          },
+          "response_envelope": {
+            "pass": true,
+            "hint": "status-code helpers present"
+          },
+          "error_handler": {
+            "pass": true,
+            "hint": "status-code helpers present"
+          },
+          "sequelize_models": {
+            "pass": true,
+            "hint": ""
+          },
+          "queue_service": {
+            "pass": true,
+            "hint": "in-memory fallback present"
+          },
+          "redis_protected_fallback": {
+            "pass": true,
+            "hint": "in-memory fallback present"
+          },
+          "conformant": true,
+          "runtime": "transactional",
+          "applies": true
+        },
+        "doc": "C:\\Users\\AZAM COMPUTERS\\OneDrive\\Desktop\\lumicorepro-core\\generated-projects\\generated-website-008\\PLATFORM-INJECTION.md"
+      },
+      "design_system": {
+        "runtime_mode": "transactional",
+        "artifacts": [
+          "C:\\Users\\AZAM COMPUTERS\\OneDrive\\Desktop\\lumicorepro-core\\generated-projects\\generated-website-008\\DESIGN-TOKENS.md",
+          "frontend/tailwind.config.js",
+          "frontend/src/index.css",
+          "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/components/common/GlassCard.jsx",
+          "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/lib/motionPresets.js",
+          "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/components/motion/MotionWrapper.jsx",
+          "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/lib/theme.js"
+        ],
+        "tailwind_config": {
+          "status": "ok",
+          "file": "frontend/tailwind.config.js"
+        },
+        "tokens_css": {
+          "status": "ok",
+          "file": "frontend/src/index.css"
+        },
+        "glass": {
+          "status": "ok",
+          "component": "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/components/common/GlassCard.jsx"
+        },
+        "motion": {
+          "status": "ok",
+          "presets": "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/lib/motionPresets.js",
+          "wrapper": "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/components/motion/MotionWrapper.jsx"
+        },
+        "theme": {
+          "status": "ok",
+          "theme": "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/lib/theme.js",
+          "app_import": false
+        },
+        "conformance": {
+          "status": "violations",
+          "pass": false,
+          "raw_hex_count": 7,
+          "violations": [
+            "motion\\BorderBeam.jsx:18",
+            "ui\\GradientButton.jsx:10",
+            "ui\\GradientButton.jsx:11",
+            "ui\\GradientButton.jsx:12",
+            "ui\\HolographicCard.jsx:19",
+            "ui\\HolographicCard.jsx:28",
+            "ui\\HolographicCard.jsx:29"
+          ]
+        },
+        "doc": "C:\\Users\\AZAM COMPUTERS\\OneDrive\\Desktop\\lumicorepro-core\\generated-projects\\generated-website-008\\DESIGN-TOKENS.md"
+      },
+      "schema_contract": {
+        "applies": true,
+        "runtime_mode": "transactional",
+        "models": {
+          "total": 14,
+          "present": 14,
+          "missing": [],
+          "pass": true
+        },
+        "order_coupon_fk": {
+          "patched": [
+            "Order.js:coupon_id",
+            "index.js:Order.belongsTo(Coupon)"
+          ],
+          "status": "ok"
+        },
+        "fk": {
+          "pass": true,
+          "missing": [],
+          "checked": 18
+        },
+        "row_lock": {
+          "pass": true,
+          "checks": {
+            "transaction": {
+              "pass": true,
+              "hint": "checkout wrapped in a single DB transaction"
+            },
+            "row_lock": {
+              "pass": true,
+              "hint": "isolated SELECT ... FOR UPDATE row lock on product"
+            },
+            "stock_guard": {
+              "pass": true,
+              "hint": "stock guard checked while row is locked"
+            },
+            "atomic_decrement": {
+              "pass": true,
+              "hint": "atomic stock decrement inside the same transaction"
+            }
+          },
+          "sources": [
+            "services\\orderService.js",
+            "routes\\order.routes.js",
+            "routes\\orderRoutes.js"
+          ],
+          "passed": [
+            "transaction",
+            "row_lock",
+            "stock_guard",
+            "atomic_decrement"
+          ],
+          "missing": []
+        },
+        "artifacts": [
+          "C:\\Users\\AZAM COMPUTERS\\OneDrive\\Desktop\\lumicorepro-core\\generated-projects\\generated-website-008\\SCHEMA-CONTRACT.md",
+          "C:\\Users\\AZAM COMPUTERS\\OneDrive\\Desktop\\lumicorepro-core\\generated-projects\\generated-website-008\\database\\schemas\\schema.sql"
+        ]
+      },
+      "functional_compliance": {
+        "runtime_mode": "transactional",
+        "artifacts": [
+          "C:\\Users\\AZAM COMPUTERS\\OneDrive\\Desktop\\lumicorepro-core\\generated-projects\\generated-website-008\\QUALITY-GATES.md"
+        ],
+        "seo": {
+          "jsonld": {
+            "required": 14,
+            "types": [
+              "Organization"
+            ],
+            "missing_types": [
+              "WebSite",
+              "WebPage",
+              "Product",
+              "Offer",
+              "AggregateRating",
+              "BreadcrumbList",
+              "FAQPage",
+              "Service",
+              "LocalBusiness",
+              "Person",
+              "Article",
+              "Review",
+              "ImageObject"
+            ],
+            "pass": false,
+            "top_up": {
+              "status": "skip",
+              "reason": "no structured-data.js found"
+            }
+          },
+          "og": {
+            "pass": false,
+            "missing": [
+              "og:title",
+              "og:description",
+              "og:image",
+              "og:url",
+              "og:type",
+              "og:site_name",
+              "og:locale",
+              "twitter:card"
+            ],
+            "note": "no index.html found"
+          },
+          "headings": {
+            "pass": false,
+            "pages": 0,
+            "violations": []
+          }
+        },
+        "i18n": {
+          "bootstrap": {
+            "pass": true,
+            "rtl_support": true,
+            "injected": true
+          },
+          "hook": {
+            "file": "frontend/src/hooks/useAppTranslation.js",
+            "status": "injected"
+          },
+          "coverage": {
+            "components": 51,
+            "hook_using": 1,
+            "percent": 2.0
+          }
+        },
+        "code_quality": {
+          "eslint_pipeline": true,
+          "prettier_pipeline": true,
+          "gate_module": true,
+          "note": "ZIP archiving is blocked unless ESLint + Prettier pass (agent/quality_gate.py DevOps gate); verified wiring, not re-run here."
+        },
+        "doc": "C:\\Users\\AZAM COMPUTERS\\OneDrive\\Desktop\\lumicorepro-core\\generated-projects\\generated-website-008\\QUALITY-GATES.md"
+      }
+    },
+    "phase_6_vfs_diff_mode": {
+      "enabled": true,
+      "calls": 13,
+      "batches": [
+        {
+          "task": "Synthesize custom logic/component for missing feature: pricing",
+          "status": "applied",
+          "files_changed": [
+            "frontend/src/components/ecommerce/PricingTable.jsx"
+          ],
+          "hunks": 1,
+          "errors": []
+        },
+        {
+          "task": "Synthesize custom logic/component for missing feature: dashboard",
+          "status": "applied",
+          "files_changed": [
+            "frontend/src/components/dashboard/DashboardPage.jsx"
+          ],
+          "hunks": 1,
+          "errors": []
+        },
+        {
+          "task": "Synthesize custom logic/component for missing feature: ai_chat",
+          "status": "applied",
+          "files_changed": [
+            "backend/controllers/aiChatController.js",
+            "backend/routes/aiChatRoutes.js"
+          ],
+          "hunks": 2,
+          "errors": []
+        },
+        {
+          "task": "Synthesize custom logic/component for missing feature: whatsapp_float",
+          "status": "applied",
+          "files_changed": [
+            "frontend/src/components/common/WhatsappFloat.jsx"
+          ],
+          "hunks": 1,
+          "errors": [
+            "frontend/src/App.jsx: context/line mismatch at old line 2:\n import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';\n import Navbar from './components/layout/Navbar';\n import Footer from './components/layout/Footer';\n+import WhatsappFloat from './components/common/WhatsappFloat';\n import HomePage from './pages/HomePage';\n // ... other imports and components",
+            "frontend/.env.example: context/line mismatch at old line 2:\n # Configure your Lemon Squeezy Store (optional):\n # VITE_LEMONSQUEEZY_STORE_ID=your_store_id\n+\n+# WhatsApp Float\n+VITE_WHATSAPP_NUMBER="
+          ]
+        },
+        {
+          "task": "Synthesize custom logic/component for missing feature: hero",
+          "status": "applied",
+          "files_changed": [
+            "frontend/src/components/marketing/Hero.jsx"
+          ],
+          "hunks": 1,
+          "errors": []
+        },
+        {
+          "task": "Synthesize custom logic/component for missing feature: dark_mode",
+          "status": "applied",
+          "files_changed": [
+            "frontend/src/context/ThemeContext.jsx",
+            "frontend/src/components/common/DarkModeToggle.jsx"
+          ],
+          "hunks": 2,
+          "errors": [
+            "frontend/tailwind.config.js: context/line mismatch at old line 4:\n     \"./index.html\",\n     \"./src/**/*.{js,ts,jsx,tsx}\",\n   ],\n+  darkMode: 'class',\n   theme: {\n     extend: {},",
+            "frontend/src/main.jsx: context/line mismatch at old line 3:\n import ReactDOM from 'react-dom/client'\n import App from './App.jsx'\n import './index.css'\n+import { ThemeProvider } from './context/ThemeContext.jsx';\n ReactDOM.createRoot(document.getElementById('root')).render(\n   <React.StrictMode>"
+          ]
+        },
+        {
+          "task": "Synthesize custom logic/component for missing feature: pwa_support",
+          "status": "applied",
+          "files_changed": [
+            "frontend/public/manifest.json",
+            "frontend/public/service-worker.js"
+          ],
+          "hunks": 1,
+          "errors": [
+            "frontend/index.html: context/line mismatch at old line 3:\n     <meta charset=\"UTF-8\" />\n     <link rel=\"icon\" type=\"image/svg+xml\" href=\"/vite.svg\" />\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n+    <link rel=\"manifest\" href=\"/manifest.json\" />\n+    <meta name=\"theme-color\" content=\"#007bff\" />\n     <title>Generated Website 008</title>",
+            "frontend/src/main.jsx: context/line mismatch at old line 5:\n   <React.StrictMode>\n     <App />\n   </React.StrictMode>,\n );\n+\n+// Register service worker for PWA support"
+          ]
+        },
+        {
+          "task": "Synthesize custom logic/component for missing feature: personalization",
+          "status": "applied",
+          "files_changed": [
+            "backend/controllers/personalizationController.js"
+          ],
+          "hunks": 1,
+          "errors": []
+        },
+        {
+          "task": "Synthesize custom logic/component for missing feature: i18n_multilingual",
+          "status": "applied",
+          "files_changed": [
+            "backend/middleware/i18n.js"
+          ],
+          "hunks": 1,
+          "errors": []
+        },
+        {
+          "task": "Synthesize custom logic/component for missing feature: features",
+          "status": "applied",
+          "files_changed": [
+            "frontend/src/components/marketing/FeaturesSection.jsx"
+          ],
+          "hunks": 1,
+          "errors": []
+        },
+        {
+          "task": "Synthesize custom logic/component for missing feature: social_proof",
+          "status": "applied",
+          "files_changed": [
+            "frontend/src/components/marketing/SocialProofSection.jsx"
+          ],
+          "hunks": 1,
+          "errors": [
+            "frontend/src/pages/LandingPage.jsx: context/line mismatch at old line 3:\n import HeroSection from '../components/marketing/HeroSection';\n import FeaturesSection from '../components/marketing/FeaturesSection';\n import PricingTable from '../components/ecommerce/PricingTable';\n+import SocialProofSection from '../components/marketing/SocialProofSection';\n // import other sections as needed\n export default function LandingPage() {"
+          ]
+        },
+        {
+          "task": "Synthesize custom logic/component for missing feature: contact",
+          "status": "applied",
+          "files_changed": [
+            "backend/controllers/contactController.js"
+          ],
+          "hunks": 1,
+          "errors": []
+        },
+        {
+          "task": "Synthesize custom logic/component for missing feature: exit_intent_popup",
+          "status": "applied",
+          "files_changed": [
+            "frontend/src/components/ExitIntentPopup.jsx"
+          ],
+          "hunks": 1,
+          "errors": []
+        }
+      ]
+    },
+    "phase_6_code_generation": {
+      "project_dir": "C:\\Users\\AZAM COMPUTERS\\OneDrive\\Desktop\\lumicorepro-core\\generated-projects\\generated-website-008",
+      "ai_calls": 13
+    },
+    "phase_6_launch_pack": {
+      "niche": "ecommerce",
+      "label": "E-Commerce",
+      "files": [
+        "backend/scripts/production-seed.js",
+        "SETUP_GUIDE.md",
+        "LICENSE_NOTICE.txt"
+      ]
+    },
+    "phase_6_design_style": {
+      "style": "skipper",
+      "name": "Skipper Minimalist Dark",
+      "dna": "Refined spotlight grids, dark bento boxes, subtle specular reflections, border beams, clean typography.",
+      "accent": "#a855f7",
+      "palette": {
+        "primary": "#38bdf8",
+        "secondary": "#64748b",
+        "accent": "#a855f7",
+        "bg": "#020617",
+        "card": "rgba(15,23,42,0.85)",
+        "surface": "rgba(30,41,59,0.6)",
+        "text": "#f8fafc",
+        "muted": "#94a3b8",
+        "border": "rgba(51,65,85,0.7)"
+      },
+      "typography": {
+        "display": "Inter",
+        "sans": "Inter",
+        "mono": "JetBrains Mono"
+      },
+      "selected_by": "user",
+      "tokens_json": "C:\\Users\\AZAM COMPUTERS\\OneDrive\\Desktop\\lumicorepro-core\\generated-projects\\generated-website-008\\frontend\\design-tokens.json",
+      "css_file": "C:\\Users\\AZAM COMPUTERS\\OneDrive\\Desktop\\lumicorepro-core\\generated-projects\\generated-website-008\\frontend\\src\\index.css",
+      "assets_dir": "C:\\Users\\AZAM COMPUTERS\\OneDrive\\Desktop\\lumicorepro-core\\generated-projects\\generated-website-008\\frontend\\public\\assets\\skipper",
+      "assets_generated": 27,
+      "manifest_path": "C:\\Users\\AZAM COMPUTERS\\OneDrive\\Desktop\\lumicorepro-core\\generated-projects\\generated-website-008\\frontend\\public\\assets\\manifest.json",
+      "design_doc": "C:\\Users\\AZAM COMPUTERS\\OneDrive\\Desktop\\lumicorepro-core\\generated-projects\\generated-website-008\\DESIGN-STYLE.md"
+    },
+    "phase_6_theme_matrix": {
+      "variant": {
+        "template_id": "saas-platform-dashboard",
+        "template": "SaaS Platform & Dashboard",
+        "category": "saas",
+        "style_id": "skipper",
+        "style_name": "Skipper Minimalist Dark",
+        "variant_id": "saas-platform-dashboard::skipper",
+        "variant_count_total": 5
+      },
+      "variant_count_total": 292,
+      "compatible_styles": [
+        "glassmorphism",
+        "bento_grid",
+        "minimalism",
+        "aurora",
+        "flat_design"
+      ],
+      "quality_gate": {
+        "variant_id": "saas-platform-dashboard::skipper",
+        "style_id": "skipper",
+        "template_id": "saas-platform-dashboard",
+        "production_ready": true,
+        "checks": {
+          "contrast_text_on_bg": {
+            "pass": true,
+            "ratio": 19.28,
+            "required": 4.5
+          },
+          "contrast_text_on_card": {
+            "pass": true,
+            "ratio": 20.07,
+            "required": 4.5
+          },
+          "responsive_breakpoints": {
+            "pass": true,
+            "covered": [
+              "mobile",
+              "tablet",
+              "laptop",
+              "wide"
+            ],
+            "required": [
+              "mobile",
+              "tablet",
+              "laptop",
+              "wide"
+            ]
+          },
+          "lighthouse_budget": {
+            "pass": null,
+            "need_run": true,
+            "desktop_required": 90,
+            "mobile_required": 80,
+            "note": "Headless-browser pass required (scripts/generate_previews.py provisionally)."
+          }
+        },
+        "budget": {
+          "lighthouse_desktop": 90,
+          "lighthouse_mobile": 80
+        }
+      },
+      "preview_manifest": {
+        "gallery": "Browse before you generate (self-hosted)",
+        "active_variant": {
+          "template_id": "saas-platform-dashboard",
+          "template": "SaaS Platform & Dashboard",
+          "category": "saas",
+          "style_id": "skipper",
+          "style_name": "Skipper Minimalist Dark",
+          "variant_id": "saas-platform-dashboard::skipper",
+          "variant_count_total": 5
+        },
+        "captured": 0
+      }
+    },
+    "phase_5_5_bespoke_design": {
+      "active": false,
+      "generated_blocks": [],
+      "target_dir": "frontend/src/components/atoms",
+      "structure_context_chars": 8221
+    },
+    "phase_7_quality_verification": {
+      "gates": {
+        "performance": {
+          "passed": true,
+          "checks": [
+            {
+              "check": "tailwind_css",
+              "passed": true
+            }
+          ],
+          "target_lighthouse": 95
+        },
+        "security": {
+          "passed": true,
+          "checks": [
+            {
+              "check": "helmet_middleware",
+              "passed": true
+            },
+            {
+              "check": "rate_limiting",
+              "passed": true
+            },
+            {
+              "check": "cors_configured",
+              "passed": true
+            },
+            {
+              "check": "env_secrets_not_committed",
+              "passed": true
+            }
+          ]
+        },
+        "features": {
+          "passed": true,
+          "feature_count": 13,
+          "minimum_required": 5,
+          "trending_count": 7
+        },
+        "assets": {
+          "passed": false,
+          "real_assets": 7,
+          "ai_generated_detected": 1
+        },
+        "code_quality": {
+          "passed": false,
+          "errors": 8,
+          "warnings": 132
+        },
+        "differentiation": {
+          "passed": true,
+          "unique_features": 7,
+          "minimum_required": 3
+        },
+        "international_compliance": {
+          "passed": true,
+          "checks": [
+            {
+              "check": "i18n_support",
+              "passed": true,
+              "weight": 1.0
+            },
+            {
+              "check": "cookie_consent",
+              "passed": true,
+              "weight": 1.5
+            },
+            {
+              "check": "pwa_manifest",
+              "passed": true,
+              "weight": 1.0
+            },
+            {
+              "check": "service_worker",
+              "passed": false,
+              "weight": 1.0
+            },
+            {
+              "check": "robots_txt",
+              "passed": true,
+              "weight": 0.5
+            },
+            {
+              "check": "sitemap_xml",
+              "passed": true,
+              "weight": 0.5
+            },
+            {
+              "check": "rtl_support",
+              "passed": true,
+              "weight": 1.0
+            },
+            {
+              "check": "whatsapp_integration",
+              "passed": true,
+              "weight": 1.0
+            },
+            {
+              "check": "accessibility_aria",
+              "passed": true,
+              "weight": 1.0
+            },
+            {
+              "check": "dark_mode_support",
+              "passed": true,
+              "weight": 0.5
+            },
+            {
+              "check": "mobile_responsive",
+              "passed": true,
+              "weight": 1.0
+            }
+          ],
+          "compliance_score": 90.0,
+          "international_ready": true,
+          "weighted_threshold": 75
+        },
+        "accessibility": {
+          "passed": true,
+          "checks": [
+            {
+              "check": "semantic_landmarks",
+              "passed": true
+            },
+            {
+              "check": "accessible_labels",
+              "passed": true
+            },
+            {
+              "check": "keyboard_focus",
+              "passed": true
+            },
+            {
+              "check": "reduced_motion",
+              "passed": true
+            }
+          ],
+          "score": 100.0
+        },
+        "deployment_readiness": {
+          "passed": false,
+          "checks": [
+            {
+              "check": "frontend\\package.json",
+              "passed": false
+            },
+            {
+              "check": "backend\\package.json",
+              "passed": true
+            },
+            {
+              "check": "backend\\server.js",
+              "passed": true
+            },
+            {
+              "check": "database\\schema.sql",
+              "passed": true
+            },
+            {
+              "check": "docker-compose.yml",
+              "passed": true
+            },
+            {
+              "check": "frontend\\Dockerfile",
+              "passed": true
+            }
+          ],
+          "score": 83.3
+        },
+        "marketplace_docs": {
+          "passed": true,
+          "checks": [
+            {
+              "check": "readme_present",
+              "passed": true
+            },
+            {
+              "check": "readme_sections",
+              "passed": true,
+              "missing": []
+            },
+            {
+              "check": "license",
+              "passed": true
+            },
+            {
+              "check": "env_example",
+              "passed": true
+            }
+          ]
+        },
+        "pro_ui": {
+          "passed": true,
+          "checks": [
+            {
+              "check": "lucide_icons",
+              "passed": true
+            },
+            {
+              "check": "brand_logo",
+              "passed": true
+            },
+            {
+              "check": "dark_mode",
+              "passed": true
+            },
+            {
+              "check": "responsive",
+              "passed": true
+            },
+            {
+              "check": "pro_footer_or_nav",
+              "passed": true
+            }
+          ],
+          "score": 100.0
+        }
+      },
+      "passed_count": 8,
+      "total_gates": 11,
+      "overall_score": 72.7,
+      "marketplace_ready": false,
+      "enterprise_ready": false,
+      "targets": {
+        "lighthouse_performance": 95,
+        "lighthouse_accessibility": 90,
+        "lighthouse_best_practices": 90,
+        "lighthouse_seo": 90,
+        "first_contentful_paint": 1.2,
+        "time_to_interactive": 2.5,
+        "animation_fps": 60
+      },
+      "github_recovery_hint": null
+    },
+    "phase_8_improvements": {
+      "total_recommendations": 10,
+      "recommendations": [
+        {
+          "id": "conv_whatsapp",
+          "title": "Add WhatsApp floating chat button (3-5x better than contact forms)",
+          "roi": 94,
+          "effort_hours": 1,
+          "category": "conversion",
+          "international_priority": true,
+          "reason": "International market requirement",
+          "roi_effort_ratio": 94.0
+        },
+        {
+          "id": "seo_sitemap_robots",
+          "title": "Generate sitemap.xml + robots.txt + canonical URLs",
+          "roi": 80,
+          "effort_hours": 1,
+          "category": "seo",
+          "international_priority": true,
+          "reason": "International market requirement",
+          "roi_effort_ratio": 80.0
+        },
+        {
+          "id": "perf_images_webp",
+          "title": "Optimize images: WebP + lazy loading + AVIF fallback",
+          "roi": 96,
+          "effort_hours": 2,
+          "category": "performance",
+          "international_priority": true,
+          "reason": "International market requirement",
+          "roi_effort_ratio": 48.0
+        },
+        {
+          "id": "perf_cdn",
+          "title": "Deploy static assets to CDN (Cloudflare / Vercel Edge)",
+          "roi": 90,
+          "effort_hours": 2,
+          "category": "performance",
+          "international_priority": true,
+          "reason": "International market requirement",
+          "roi_effort_ratio": 45.0
+        },
+        {
+          "id": "sec_rate_limit",
+          "title": "Implement API rate limiting + DDoS protection headers",
+          "roi": 88,
+          "effort_hours": 2,
+          "category": "security",
+          "international_priority": true,
+          "reason": "International market requirement",
+          "roi_effort_ratio": 44.0
+        },
+        {
+          "id": "legal_gdpr_cookie",
+          "title": "GDPR/CCPA compliant cookie consent banner",
+          "roi": 83,
+          "effort_hours": 2,
+          "category": "legal",
+          "international_priority": true,
+          "reason": "International market requirement",
+          "roi_effort_ratio": 41.5
+        },
+        {
+          "id": "ops_monitoring",
+          "title": "Set up error monitoring with Sentry + uptime alerts",
+          "roi": 82,
+          "effort_hours": 2,
+          "category": "ops",
+          "international_priority": true,
+          "reason": "Multiple validation warnings detected",
+          "roi_effort_ratio": 41.0
+        },
+        {
+          "id": "seo_hreflang",
+          "title": "Add hreflang tags for multilingual/multi-region support",
+          "roi": 78,
+          "effort_hours": 2,
+          "category": "seo",
+          "international_priority": true,
+          "reason": "International market requirement",
+          "roi_effort_ratio": 39.0
+        },
+        {
+          "id": "seo_meta_og",
+          "title": "Complete Open Graph + Twitter Card meta tags per page",
+          "roi": 76,
+          "effort_hours": 2,
+          "category": "seo",
+          "international_priority": true,
+          "reason": "International market requirement",
+          "roi_effort_ratio": 38.0
+        },
+        {
+          "id": "legal_privacy_policy",
+          "title": "Add Privacy Policy + Terms of Service pages",
+          "roi": 75,
+          "effort_hours": 2,
+          "category": "legal",
+          "international_priority": true,
+          "reason": "International market requirement",
+          "roi_effort_ratio": 37.5
+        }
+      ],
+      "estimated_total_hours": 18,
+      "priority_order": [
+        "conv_whatsapp",
+        "seo_sitemap_robots",
+        "perf_images_webp",
+        "perf_cdn",
+        "sec_rate_limit",
+        "legal_gdpr_cookie",
+        "ops_monitoring",
+        "seo_hreflang",
+        "seo_meta_og",
+        "legal_privacy_policy"
+      ],
+      "international_compliance": {
+        "gdpr_ready": true,
+        "pwa_ready": false,
+        "seo_ready": true
+      }
+    },
+    "phase_9_benchmark": {
+      "industry": "ai",
+      "website_type": "saas",
+      "competitors_global": [
+        "Notion",
+        "Linear",
+        "Stripe",
+        "Vercel"
+      ],
+      "competitors_pk": [
+        "Rozee.pk",
+        "Zameen.com",
+        "Bookme.pk"
+      ],
+      "pk_market_growth": "+55% YoY",
+      "pk_mobile_share": "45%",
+      "our_metrics": {
+        "feature_count": 13,
+        "lighthouse_target": 96,
+        "quality_score": 72.7,
+        "must_have_coverage": 40.0
+      },
+      "industry_averages": {
+        "avg_lighthouse": 78,
+        "avg_features": 10,
+        "avg_load_time_ms": 2800,
+        "must_have": [
+          "pricing",
+          "auth",
+          "dashboard",
+          "analytics",
+          "free_trial"
+        ],
+        "top_competitors_global": [
+          "Notion",
+          "Linear",
+          "Stripe",
+          "Vercel"
+        ],
+        "top_competitors_pk": [
+          "Rozee.pk",
+          "Zameen.com",
+          "Bookme.pk"
+        ],
+        "pk_mobile_share": "45%",
+        "pk_market_growth": "+55% YoY"
+      },
+      "competitive_advantages": [
+        "Lighthouse target 96 vs industry avg 78",
+        "13 features vs industry avg 10",
+        "Component-library reuse — 95% token savings vs generic AI",
+        "PWA-ready: offline mode + install prompt + push notifications",
+        "Multi-language support — reaches 4.5B+ non-English internet users",
+        "WhatsApp CTA — 3-5x better conversion in South Asia & MENA"
+      ],
+      "market_positioning": "Premium personal creative platform with positioned for +25% YoY market growth.",
+      "launch_ready": false,
+      "vs_generic_ai": {
+        "market_analysis": true,
+        "tech_optimization": true,
+        "trending_features": true,
+        "quality_gates": true,
+        "competitive_benchmark": true,
+        "deploy_ready": true,
+        "multilingual": true,
+        "pwa_ready": true,
+        "whatsapp_cta": true
+      }
+    },
+    "phase_10_international_delivery": {
+      "files_checked": 12,
+      "delivery_status": {
+        "docker-compose.yml": "✅",
+        "README.md": "✅",
+        "LICENSE.md": "✅",
+        "INSTRUCTIONS.md": "✅",
+        "DEPLOYMENT_CHECKLIST.md": "✅",
+        "SEO_META_TAGS.md": "✅",
+        ".github/workflows/deploy.yml": "✅",
+        "frontend/public/robots.txt": "✅",
+        "frontend/public/sitemap.xml": "✅",
+        "frontend/public/manifest.json": "✅",
+        "frontend/Dockerfile": "✅",
+        "backend/Dockerfile": "✅"
+      }
+    },
+    "phase_11_localization": {
+      "region": "NA",
+      "primary_currency": "USD",
+      "payment_gateways": [
+        "Stripe",
+        "PayPal",
+        "Square"
+      ],
+      "languages_generated": [
+        "ar",
+        "de",
+        "en",
+        "es",
+        "fr",
+        "hi",
+        "id",
+        "ja",
+        "ko",
+        "pt",
+        "ru",
+        "tr",
+        "zh"
+      ],
+      "total_languages": 13,
+      "rtl_languages": [
+        "ar"
+      ]
+    },
+    "phase_12_compliance_accessibility": {
+      "compliance_regs": [
+        "CCPA",
+        "PIPEDA",
+        "GDPR"
+      ],
+      "compliance_artifacts": 5,
+      "requires_consent_banner": true,
+      "accessibility_score": 64.3,
+      "wcag_aa_compliant": false,
+      "security_controls_verified": 13,
+      "security_checklist": "C:\\Users\\AZAM COMPUTERS\\OneDrive\\Desktop\\lumicorepro-core\\generated-projects\\generated-website-008\\SECURITY-CHECKLIST.md",
+      "estimated_monthly_cost": {
+        "vercel": {
+          "monthly_usd": "$0",
+          "class": "static-site"
+        },
+        "cloudflare": {
+          "monthly_usd": "$0",
+          "class": "static-site"
+        },
+        "netlify": {
+          "monthly_usd": "$0",
+          "class": "static-site"
+        },
+        "github": {
+          "monthly_usd": "$0",
+          "class": "static-site"
+        },
+        "railway": {
+          "monthly_usd": "$5",
+          "class": "app-server"
+        },
+        "render": {
+          "monthly_usd": "$0",
+          "class": "app-server"
+        },
+        "digitalocean": {
+          "monthly_usd": "$12",
+          "class": "app-server"
+        },
+        "aws": {
+          "monthly_usd": "$7",
+          "class": "app-server"
+        },
+        "gcp": {
+          "monthly_usd": "$6",
+          "class": "app-server"
+        }
+      }
+    },
+    "phase_13_seo_and_cdn": {
+      "pages_optimized": 7,
+      "sitemap_url": "https://project.com/sitemap.xml",
+      "cdn_platforms": [
+        "vercel",
+        "netlify",
+        "nginx",
+        "cloudflare"
+      ]
+    },
+    "phase_14_performance_growth": {
+      "performance_targets": {
+        "lcp_ms": 2500,
+        "cls": 0.05,
+        "inp_ms": 150,
+        "ttfb_ms": 600,
+        "fcp_ms": 1500,
+        "tbt_ms": 200,
+        "lighthouse": {
+          "performance": 90,
+          "accessibility": 92,
+          "best_practices": 93,
+          "seo": 90
+        },
+        "bundle_kb": {
+          "js": 300,
+          "css": 70,
+          "total": 500
+        },
+        "note": "SaaS: dashboard routes can lazy-load; landing must be fast"
+      },
+      "analytics_events": 12,
+      "ab_experiments": 3,
+      "webhook_events": 10
+    },
+    "phase_15_global_deployment": {
+      "supported_clouds": [
+        "vercel",
+        "railway",
+        "render",
+        "aws",
+        "gcp",
+        "digitalocean"
+      ],
+      "artifacts_count": 9,
+      "recommended_platform": "vercel",
+      "estimated_monthly_cost": {
+        "vercel": {
+          "monthly_usd": "$0",
+          "class": "static-site"
+        },
+        "cloudflare": {
+          "monthly_usd": "$0",
+          "class": "static-site"
+        },
+        "netlify": {
+          "monthly_usd": "$0",
+          "class": "static-site"
+        },
+        "github": {
+          "monthly_usd": "$0",
+          "class": "static-site"
+        },
+        "railway": {
+          "monthly_usd": "$5",
+          "class": "app-server"
+        },
+        "render": {
+          "monthly_usd": "$0",
+          "class": "app-server"
+        },
+        "digitalocean": {
+          "monthly_usd": "$12",
+          "class": "app-server"
+        },
+        "aws": {
+          "monthly_usd": "$7",
+          "class": "app-server"
+        },
+        "gcp": {
+          "monthly_usd": "$6",
+          "class": "app-server"
+        }
+      }
+    },
+    "final_production_validation": {
+      "valid": false,
+      "quality_score": 72.7,
+      "enterprise_ready": false
+    },
+    "component_injection": {
+      "files_upgraded": [
+        "frontend/src/components/ExitIntentPopup.jsx",
+        "frontend/src/components/business/PricingCard.jsx",
+        "frontend/src/components/dashboard/DashboardPage.jsx"
+      ],
+      "buttons_swapped": 7,
+      "skipped": 0
+    },
+    "production_readiness_repair": {
+      "project": "C:\\Users\\AZAM COMPUTERS\\OneDrive\\Desktop\\lumicorepro-core\\generated-projects\\generated-website-008",
+      "lane": "transactional",
+      "commerce": {
+        "status": "error",
+        "error": "unterminated string literal (detected at line 172) (commerce_ready.py, line 172)"
+      },
+      "schema": {
+        "status": "ok",
+        "patched": [
+          "models/index.js",
+          "middleware/org.js",
+          "middleware/permission.js"
+        ],
+        "models": [
+          "Address",
+          "AnalyticsEvent",
+          "AuditLog",
+          "Booking",
+          "Cart",
+          "CartItem",
+          "Category",
+          "Coupon",
+          "Doctor",
+          "Membership",
+          "Notification",
+          "Order",
+          "Organization",
+          "Payment",
+          "Permission",
+          "Plan",
+          "Product",
+          "Review",
+          "Role",
+          "Service",
+          "Subscription",
+          "SystemConfig",
+          "User",
+          "WebhookEvent",
+          "WebhookLog",
+          "Wishlist"
+        ],
+        "fk_columns_satisfied": [
+          "cart_id",
+          "category_id",
+          "coupon_id",
+          "order_id",
+          "product_id",
+          "recipient_id",
+          "user_id",
+          "vendor_id"
+        ],
+        "multitenancy": true,
+        "rbac": true
+      },
+      "enterprise_compliance": {
+        "status": "error",
+        "error": "unterminated string literal (detected at line 172) (commerce_ready.py, line 172)"
+      }
+    },
+    "architect_enterprise_verification": {
+      "passed": false,
+      "blocked_zip": true,
+      "docs": {
+        "rules_dir": "C:\\Users\\AZAM COMPUTERS\\OneDrive\\Desktop\\lumicorepro-core\\project-rules",
+        "loaded": 5,
+        "required": 5,
+        "all_present": true,
+        "files": {
+          "PRD_MASTER_TEMPLATE.md": {
+            "loaded": true,
+            "anchors": {
+              "## Feature Scope": true,
+              "## Acceptance Criteria": true
+            }
+          },
+          "TRD_ENGINEERING_STANDARDS.md": {
+            "loaded": true,
+            "anchors": {
+              "## Dependency Pins": true,
+              "## React 19 Rules": true,
+              "## Backend Patterns": true
+            }
+          },
+          "UI_UX_DESIGN_TOKENS.md": {
+            "loaded": true,
+            "anchors": {
+              "## Color Tokens": true,
+              "## Glassmorphism": true,
+              "## Motion Profiles": true,
+              "## Conformance": true
+            }
+          },
+          "BACKEND_SCHEMA_SPEC.md": {
+            "loaded": true,
+            "anchors": {
+              "## Model Baseline": true,
+              "## Foreign Key Contract": true,
+              "## Concurrency Mandate": true,
+              "## Multi-Tenancy (Organizations + RBAC)": true
+            }
+          },
+          "SRS_SYSTEM_SPECIFICATIONS.md": {
+            "loaded": true,
+            "anchors": {
+              "## SEO Architecture": true,
+              "## Internationalization": true,
+              "## Code Quality Assurance": true
+            }
+          }
+        }
+      },
+      "verification": {
+        "prd": {
+          "name": "prd",
+          "doc": "PRD_MASTER_TEMPLATE.md",
+          "pass": false,
+          "checks": {
+            "fluid_ui": {
+              "pass": true,
+              "detail": "fluid tokens + fluid utilities",
+              "files": [],
+              "applies": true
+            },
+            "micro_interactions": {
+              "pass": true,
+              "detail": "artifacts present",
+              "files": [],
+              "applies": true
+            },
+            "lead_capture": {
+              "pass": true,
+              "detail": "artifacts present",
+              "files": [],
+              "applies": true
+            },
+            "mounted_motion_canvas": {
+              "pass": false,
+              "detail": "MotionCanvas not mounted in App.jsx",
+              "files": [
+                "frontend\\src\\App.jsx"
+              ],
+              "applies": true
+            },
+            "runtime_mode": {
+              "pass": true,
+              "detail": "runtime_mode=transactional matches layout_mode=enterprise",
+              "files": [],
+              "applies": true
+            }
+          },
+          "note": ""
+        },
+        "engineering": {
+          "name": "engineering",
+          "doc": "TRD_ENGINEERING_STANDARDS.md",
+          "pass": false,
+          "checks": {
+            "stack_pins": {
+              "pass": false,
+              "detail": "frontend/package.json missing",
+              "files": [
+                "frontend/package.json"
+              ],
+              "applies": true
+            },
+            "state_topology": {
+              "pass": false,
+              "detail": "provider stack missing",
+              "files": [
+                "frontend\\src\\App.jsx"
+              ],
+              "applies": true
+            },
+            "optimization": {
+              "pass": true,
+              "detail": "lazy layouts + CLS guard",
+              "files": [],
+              "applies": true
+            },
+            "backend_blueprint": {
+              "pass": true,
+              "detail": "backend blueprint conformant",
+              "files": [],
+              "applies": true
+            },
+            "component_injection": {
+              "pass": true,
+              "detail": "rigid local component injection (no raw <button>)",
+              "files": [],
+              "applies": true
+            }
+          },
+          "note": ""
+        },
+        "design": {
+          "name": "design",
+          "doc": "UI_UX_DESIGN_TOKENS.md",
+          "pass": false,
+          "checks": {
+            "tokens": {
+              "pass": true,
+              "detail": "semantic token mapping present",
+              "files": [],
+              "applies": true
+            },
+            "glass": {
+              "pass": true,
+              "detail": "glassmorphism spec present",
+              "files": [],
+              "applies": true
+            },
+            "motion": {
+              "pass": true,
+              "detail": "motion profiles present",
+              "files": [],
+              "applies": true
+            },
+            "theme": {
+              "pass": false,
+              "detail": "theme.js / App import missing",
+              "files": [
+                "frontend\\src\\lib\\theme.js"
+              ],
+              "applies": true
+            },
+            "raw_hex": {
+              "pass": false,
+              "detail": "raw hex literals: 8",
+              "files": [
+                "frontend/src/components/motion/BorderBeam.jsx:22",
+                "frontend/src/components/ui/GradientButton.jsx:14",
+                "frontend/src/components/ui/GradientButton.jsx:15",
+                "frontend/src/components/ui/GradientButton.jsx:16",
+                "frontend/src/components/ui/HolographicCard.jsx:26",
+                "frontend/src/components/ui/HolographicCard.jsx:28",
+                "frontend/src/components/ui/HolographicCard.jsx:43",
+                "frontend/src/components/ui/HolographicCard.jsx:45"
+              ],
+              "applies": true
+            }
+          },
+          "note": ""
+        },
+        "schema_srs": {
+          "name": "BACKEND_SCHEMA_SPEC.md",
+          "doc": "BACKEND_SCHEMA_SPEC.md + SRS_SYSTEM_SPECIFICATIONS.md",
+          "pass": false,
+          "checks": {
+            "baseline": {
+              "pass": true,
+              "detail": "14/14 models present",
+              "files": [],
+              "applies": true
+            },
+            "fk_contract": {
+              "pass": true,
+              "detail": "FK contract honored",
+              "files": [
+                "backend\\models\\index.js"
+              ],
+              "applies": true
+            },
+            "concurrency": {
+              "pass": true,
+              "detail": "row-lock checkout flow present (transaction:services\\orderService.js, row lock:services\\orderService.js, stock guard:services\\orderService.js, atomic decrement:services\\couponService.js)",
+              "files": [],
+              "applies": true
+            },
+            "rule_lockfile": {
+              "pass": true,
+              "detail": "docs rule lockfile honored (2 applicable rules)",
+              "files": [
+                "backend\\models\\Role.js",
+                "backend\\models\\index.js"
+              ],
+              "applies": true
+            },
+            "jsonld": {
+              "pass": false,
+              "detail": "missing JSON-LD types: WebPage, Service, LocalBusiness, Person, Article, Review, ImageObject",
+              "files": [
+                "frontend\\src\\config\\structured-data.js"
+              ],
+              "applies": true
+            },
+            "open_graph": {
+              "pass": false,
+              "detail": "missing meta: og:title, og:description, og:image, og:url, og:type, og:site_name, og:locale, twitter:card",
+              "files": [
+                "frontend\\index.html"
+              ],
+              "applies": true
+            },
+            "headings": {
+              "pass": true,
+              "detail": "heading hierarchy clean",
+              "files": [],
+              "applies": true
+            },
+            "i18n_rtl": {
+              "pass": true,
+              "detail": "i18n bootstrap + RTL + hook present",
+              "files": [],
+              "applies": true
+            },
+            "devops": {
+              "pass": true,
+              "detail": "ESLint config + .prettierignore + quality_gate wired",
+              "files": [],
+              "applies": true
+            }
+          },
+          "note": "SRS_SYSTEM_SPECIFICATIONS.md"
+        }
+      },
+      "violating_files": [
+        "frontend/src/App.jsx",
+        "frontend/package.json",
+        "frontend/src/lib/theme.js",
+        "frontend/src/components/motion/BorderBeam.jsx",
+        "frontend/src/components/ui/GradientButton.jsx",
+        "frontend/src/components/ui/HolographicCard.jsx",
+        "frontend/src/config/structured-data.js",
+        "frontend/index.html"
+      ],
+      "self_heal_rounds": [
+        {
+          "round": 1,
+          "healed": 5,
+          "files": [
+            "frontend/src/App.jsx",
+            "frontend/package.json",
+            "frontend/src/lib/theme.js",
+            "frontend/src/components/motion/BorderBeam.jsx",
+            "frontend/src/components/ui/GradientButton.jsx",
+            "frontend/src/components/ui/HolographicCard.jsx",
+            "frontend/src/config/structured-data.js",
+            "frontend/index.html"
+          ]
+        },
+        {
+          "round": 2,
+          "healed": 5,
+          "files": [
+            "frontend/src/App.jsx",
+            "frontend/package.json",
+            "frontend/src/lib/theme.js",
+            "frontend/src/components/motion/BorderBeam.jsx",
+            "frontend/src/components/ui/GradientButton.jsx",
+            "frontend/src/components/ui/HolographicCard.jsx",
+            "frontend/src/config/structured-data.js",
+            "frontend/index.html"
+          ]
+        },
+        {
+          "round": 3,
+          "healed": 5,
+          "files": [
+            "frontend/src/App.jsx",
+            "frontend/package.json",
+            "frontend/src/lib/theme.js",
+            "frontend/src/components/motion/BorderBeam.jsx",
+            "frontend/src/components/ui/GradientButton.jsx",
+            "frontend/src/components/ui/HolographicCard.jsx",
+            "frontend/src/config/structured-data.js",
+            "frontend/index.html"
+          ]
+        }
+      ],
+      "project_name": "",
+      "reason": "prd: 1 check(s) red; engineering: 2 check(s) red; design: 2 check(s) red; schema_srs: 2 check(s) red"
+    },
+    "quality_gate_devops": {
+      "available": true,
+      "passed": false,
+      "status": "blocked",
+      "attempts": 4,
+      "maximum_attempts": 4,
+      "format": {
+        "command": "C:\\Program Files\\nodejs\\npx.CMD prettier --write --ignore-path .prettierignore -- generated-projects/generated-website-008",
+        "exit_code": 2,
+        "timed_out": false,
+        "duration_secs": 14.454,
+        "output": " ? undefined : { scale: 0.97 }}\n[\u001b[31merror\u001b[39m]   28 |         style={{\n[\u001b[31merror\u001b[39m] > 29 |           background: `linear-gradient(120deg, ${from}, ${via}, ${to})`,\n[\u001b[31merror\u001b[39m]      |                                           ^\n[\u001b[31merror\u001b[39m]   30 |           backgroundSize: '200% 200%',\n[\u001b[31merror\u001b[39m]   31 |         }}\n[\u001b[31merror\u001b[39m]   32 |         animate={\n[\u001b[31merror\u001b[39m] generated-projects/generated-website-008/frontend/src/components/ui/HolographicCard.jsx: SyntaxError: Identifier directly after number. (13:53)\n[\u001b[31merror\u001b[39m]   11 |   return (\n[\u001b[31merror\u001b[39m]   12 |     <motion.div\n[\u001b[31merror\u001b[39m] > 13 |       className={`relative overflow-hidden rounded-2xl ${className}`}\n[\u001b[31merror\u001b[39m]      |                                                     ^\n[\u001b[31merror\u001b[39m]   14 |       whileHover={{ scale: 1.02 }}\n[\u001b[31merror\u001b[39m]   15 |       transition={{ duration: 0.3, ease: [0.25, 0.46, 0.45, 0.94] }}\n[\u001b[31merror\u001b[39m]   16 |       {...props}\n[\u001b[31merror\u001b[39m] generated-projects/generated-website-008/frontend/src/config/structured-data.js: SyntaxError: Unterminated regular expression. (17:22)\n[\u001b[31merror\u001b[39m]   15 |   name: SITE_NAME,\n[\u001b[31merror\u001b[39m]   16 |   url: SITE_URL,\n[\u001b[31merror\u001b[39m] > 17 |   logo: `${SITE_URL}/logo.png`,\n[\u001b[31merror\u001b[39m]      |                      ^\n[\u001b[31merror\u001b[39m]   18 |   sameAs: [],\n[\u001b[31merror\u001b[39m]   19 | };\n[\u001b[31merror\u001b[39m]   20 |\n[\u001b[31merror\u001b[39m] generated-projects/generated-website-008/frontend/src/lib/theme.js: SyntaxError: Missing semicolon. (28:22)\n[\u001b[31merror\u001b[39m]   26 |\n[\u001b[31merror\u001b[39m]   27 |     // Apply the 'dark' class based on the determined preference.\n[\u001b[31merror\u001b[39m] > 28 |     // The original `pref === true || saved === 'dark'` is redundant,\n[\u001b[31merror\u001b[39m]      |                      ^\n[\u001b[31merror\u001b[39m]   29 |     // as `pref` already correctly reflects the desired boolean state.\n[\u001b[31merror\u001b[39m]   30 |     root.classList.toggle('dark', pref);\n[\u001b[31merror\u001b[39m]   31 |"
+      },
+      "lint": {
+        "command": "C:\\Program Files\\nodejs\\npx.CMD eslint --no-config-lookup --config scripts/eslint.generated.config.js generated-projects/generated-website-008 generated-projects/generated-website-008/frontend",
+        "exit_code": 1,
+        "timed_out": false,
+        "duration_secs": 18.29,
+        "files_checked": 241,
+        "output": "ult'\n\nC:\\Users\\AZAM COMPUTERS\\OneDrive\\Desktop\\lumicorepro-core\\generated-projects\\generated-website-008\\frontend\\src\\components\\motion\\BorderBeam.jsx\n  13:22  error  Parsing error: Unexpected token relative\n\nC:\\Users\\AZAM COMPUTERS\\OneDrive\\Desktop\\lumicorepro-core\\generated-projects\\generated-website-008\\frontend\\src\\components\\motion\\SpotlightGrid.jsx\n  61:8  error  Parsing error: Duplicate export 'default'\n\nC:\\Users\\AZAM COMPUTERS\\OneDrive\\Desktop\\lumicorepro-core\\generated-projects\\generated-website-008\\frontend\\src\\components\\motion\\TextMorph.jsx\n  60:8  error  Parsing error: Duplicate export 'default'\n\nC:\\Users\\AZAM COMPUTERS\\OneDrive\\Desktop\\lumicorepro-core\\generated-projects\\generated-website-008\\frontend\\src\\components\\ui\\GradientButton.jsx\n  29:24  error  Parsing error: Unexpected token linear\n\nC:\\Users\\AZAM COMPUTERS\\OneDrive\\Desktop\\lumicorepro-core\\generated-projects\\generated-website-008\\frontend\\src\\components\\ui\\HolographicCard.jsx\n  13:19  error  Parsing error: Unexpected token relative\n\nC:\\Users\\AZAM COMPUTERS\\OneDrive\\Desktop\\lumicorepro-core\\generated-projects\\generated-website-008\\frontend\\src\\config\\structured-data.js\n  17:10  error  Parsing error: Unexpected token $\n\nC:\\Users\\AZAM COMPUTERS\\OneDrive\\Desktop\\lumicorepro-core\\generated-projects\\generated-website-008\\frontend\\src\\layouts\\AppLayout.jsx\n  18:11  error  Raw <button> violates local component injection. Import ButtonMotion from @/components/ui/ButtonMotion instead  no-restricted-syntax\n\nC:\\Users\\AZAM COMPUTERS\\OneDrive\\Desktop\\lumicorepro-core\\generated-projects\\generated-website-008\\frontend\\src\\layouts\\LandingLayout.jsx\n  122:17  error  Raw <button> violates local component injection. Import ButtonMotion from @/components/ui/ButtonMotion instead  no-restricted-syntax\n\nC:\\Users\\AZAM COMPUTERS\\OneDrive\\Desktop\\lumicorepro-core\\generated-projects\\generated-website-008\\frontend\\src\\lib\\theme.js\n  28:22  error  Parsing error: Unexpected token pref\n\n✖ 10 problems (10 errors, 0 warnings)"
+      },
+      "build_verify": {
+        "enabled": true,
+        "verified": false,
+        "ok": false,
+        "builds": []
+      },
+      "self_heal_rounds": [
+        {
+          "attempt": 1,
+          "offending_files": [],
+          "format_exit": 2,
+          "lint_exit": 1,
+          "build_exit": null
+        },
+        {
+          "attempt": 2,
+          "offending_files": [],
+          "format_exit": 2,
+          "lint_exit": 1,
+          "build_exit": null
+        },
+        {
+          "attempt": 3,
+          "offending_files": [],
+          "format_exit": 2,
+          "lint_exit": 1,
+          "build_exit": null
+        }
+      ],
+      "self_correction": [
+        {
+          "attempt": 1,
+          "error_chars": 3732,
+          "feedback": {
+            "status": "error",
+            "reason": "Gemini API HTTP Error 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 7.438371965s.\",\n    \"status\": \"RESOURCE_EXHAUSTED\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.Help\",\n        \"links\": [\n          {\n            \"description\": \"Learn more about Gemini API quotas\",\n            \"url\": \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n          }\n        ]\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.QuotaFailure\",\n        \"violations\": [\n          {\n            \"quotaMetric\": \"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\n            \"quotaId\": \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\n            \"quotaDimensions\": {\n              \"location\": \"global\",\n              \"model\": \"gemini-2.5-flash\"\n            },\n            \"quotaValue\": \"20\"\n          }\n        ]\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.RetryInfo\",\n        \"retryDelay\": \"7s\"\n      }\n    ]\n  }\n}\n"
+          }
+        },
+        {
+          "attempt": 2,
+          "error_chars": 3732,
+          "feedback": {
+            "status": "error",
+            "reason": "Gemini API HTTP Error 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 31.616364623s.\",\n    \"status\": \"RESOURCE_EXHAUSTED\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.Help\",\n        \"links\": [\n          {\n            \"description\": \"Learn more about Gemini API quotas\",\n            \"url\": \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n          }\n        ]\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.QuotaFailure\",\n        \"violations\": [\n          {\n            \"quotaMetric\": \"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\n            \"quotaId\": \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\n            \"quotaDimensions\": {\n              \"location\": \"global\",\n              \"model\": \"gemini-2.5-flash\"\n            },\n            \"quotaValue\": \"20\"\n          }\n        ]\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.RetryInfo\",\n        \"retryDelay\": \"31s\"\n      }\n    ]\n  }\n}\n"
+          }
+        },
+        {
+          "attempt": 3,
+          "error_chars": 3732,
+          "feedback": {
+            "status": "error",
+            "reason": "Gemini API HTTP Error 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 57.153754688s.\",\n    \"status\": \"RESOURCE_EXHAUSTED\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.Help\",\n        \"links\": [\n          {\n            \"description\": \"Learn more about Gemini API quotas\",\n            \"url\": \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n          }\n        ]\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.QuotaFailure\",\n        \"violations\": [\n          {\n            \"quotaMetric\": \"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\n            \"quotaId\": \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\n            \"quotaDimensions\": {\n              \"location\": \"global\",\n              \"model\": \"gemini-2.5-flash\"\n            },\n            \"quotaValue\": \"20\"\n          }\n        ]\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.RetryInfo\",\n        \"retryDelay\": \"57s\"\n      }\n    ]\n  }\n}\n"
+          }
+        }
+      ],
+      "lint_files": [],
+      "github_recovery": {},
+      "note": "Quality gate FAILED — ZIP compilation blocked; project returned for self-correction."
+    }
+  },
+  "project_layout": {
+    "mode": "enterprise",
+    "has_api": true,
+    "phase_report": {
+      "mode": "enterprise",
+      "runtime_mode": "transactional",
+      "scaffold": "master-express-backend hydrated from backend-library",
+      "models_mounted": 25,
+      "models": [
+        "Address",
+        "AnalyticsEvent",
+        "AuditLog",
+        "Booking",
+        "Cart",
+        "CartItem",
+        "Category",
+        "Coupon",
+        "Doctor",
+        "Membership",
+        "Notification",
+        "Order",
+        "Organization",
+        "Payment",
+        "Permission",
+        "Plan",
+        "Product",
+        "Review",
+        "Role",
+        "Service",
+        "Subscription",
+        "SystemConfig",
+        "User",
+        "WebhookEvent",
+        "Wishlist"
+      ],
+      "route_groups_mapped": 24,
+      "routes": [
+        "address",
+        "ai",
+        "analytics",
+        "auth",
+        "booking",
+        "business",
+        "cart",
+        "coupon",
+        "dashboard",
+        "health",
+        "license",
+        "notification",
+        "order",
+        "org",
+        "payment",
+        "plan",
+        "playbook",
+        "product",
+        "search",
+        "settings",
+        "subscription",
+        "upload",
+        "user",
+        "wishlist"
+      ],
+      "queue": "Redis + BullMQ (backend/services/queue, backend/workers/worker.js)",
+      "axios_interceptor": "frontend/src/services/api.js -> /api/* via nginx gateway",
+      "database": "Sequelize — PostgreSQL/MySQL ready (DATABASE_URL + DB_DIALECT)",
+      "generation_matrix": {
+        "runtime_mode": "transactional",
+        "artifacts": [
+          "index.css",
+          "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/hooks/useInView.js",
+          "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/components/common/MotionCanvas.jsx",
+          "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/components/common/MotionSystems.jsx",
+          "framer-motion:already-present",
+          "already-mounted",
+          "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/services/analyticsBus.js",
+          "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/components/common/LeadForm.jsx",
+          "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/components/checkout/CheckoutFlow.jsx",
+          "C:\\Users\\AZAM COMPUTERS\\OneDrive\\Desktop\\lumicorepro-core\\generated-projects\\generated-website-008\\GENERATION-MATRIX.md"
+        ],
+        "fluid_ui": {
+          "applied": true,
+          "file": "index.css"
+        },
+        "micro_interactions": {
+          "components": [
+            "MotionCanvas",
+            "Reveal",
+            "MagneticButton",
+            "TiltCard",
+            "HoverGlow"
+          ],
+          "mounted_in_app": false,
+          "artifacts": [
+            "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/hooks/useInView.js",
+            "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/components/common/MotionCanvas.jsx",
+            "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/components/common/MotionSystems.jsx",
+            "framer-motion:already-present",
+            "already-mounted"
+          ]
+        },
+        "lead_capture": {
+          "lead_form": "frontend/src/components/common/LeadForm.jsx",
+          "checkout": "frontend/src/components/checkout/CheckoutFlow.jsx",
+          "analytics_bus": "frontend/src/services/analyticsBus.js",
+          "artifacts": [
+            "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/services/analyticsBus.js",
+            "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/components/common/LeadForm.jsx",
+            "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/components/checkout/CheckoutFlow.jsx"
+          ]
+        },
+        "matrix_doc": "C:\\Users\\AZAM COMPUTERS\\OneDrive\\Desktop\\lumicorepro-core\\generated-projects\\generated-website-008\\GENERATION-MATRIX.md"
+      },
+      "platform_injection": {
+        "runtime_mode": "transactional",
+        "artifacts": [
+          "frontend/src/index.css",
+          "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/lib/queryClient.js",
+          "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/hooks/useApiQuery.js",
+          "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/lib/AppProviders.jsx",
+          "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/store/useAppStore.js",
+          "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/layouts/LandingLayout.jsx",
+          "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/layouts/AppLayout.jsx",
+          "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/components/common/LayoutSkeleton.jsx",
+          "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/lib/LazyLayouts.jsx",
+          "C:\\Users\\AZAM COMPUTERS\\OneDrive\\Desktop\\lumicorepro-core\\generated-projects\\generated-website-008\\PLATFORM-INJECTION.md"
+        ],
+        "frontend_stack": {
+          "status": "skip",
+          "reason": "frontend/package.json missing"
+        },
+        "state_topology": {
+          "status": "ok",
+          "artifacts": {
+            "queryClient": "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/lib/queryClient.js",
+            "useApiQuery": "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/hooks/useApiQuery.js",
+            "AppProviders": "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/lib/AppProviders.jsx",
+            "zustand_store": "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/store/useAppStore.js"
+          },
+          "provider_wrapped": false,
+          "app_path": null
+        },
+        "lazy_layouts": {
+          "status": "ok",
+          "artifacts": {
+            "layout_landing": "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/layouts/LandingLayout.jsx",
+            "layout_app": "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/layouts/AppLayout.jsx",
+            "layout_skeleton": "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/components/common/LayoutSkeleton.jsx",
+            "lazy_layout_registry": "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/lib/LazyLayouts.jsx"
+          }
+        },
+        "cls_budget": {
+          "status": "ok",
+          "file": "frontend/src/index.css"
+        },
+        "backend_blueprint": {
+          "controllers": {
+            "pass": true,
+            "hint": ""
+          },
+          "response_envelope": {
+            "pass": true,
+            "hint": "status-code helpers present"
+          },
+          "error_handler": {
+            "pass": true,
+            "hint": "status-code helpers present"
+          },
+          "sequelize_models": {
+            "pass": true,
+            "hint": ""
+          },
+          "queue_service": {
+            "pass": true,
+            "hint": "in-memory fallback present"
+          },
+          "redis_protected_fallback": {
+            "pass": true,
+            "hint": "in-memory fallback present"
+          },
+          "conformant": true,
+          "runtime": "transactional",
+          "applies": true
+        },
+        "doc": "C:\\Users\\AZAM COMPUTERS\\OneDrive\\Desktop\\lumicorepro-core\\generated-projects\\generated-website-008\\PLATFORM-INJECTION.md"
+      },
+      "design_system": {
+        "runtime_mode": "transactional",
+        "artifacts": [
+          "C:\\Users\\AZAM COMPUTERS\\OneDrive\\Desktop\\lumicorepro-core\\generated-projects\\generated-website-008\\DESIGN-TOKENS.md",
+          "frontend/tailwind.config.js",
+          "frontend/src/index.css",
+          "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/components/common/GlassCard.jsx",
+          "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/lib/motionPresets.js",
+          "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/components/motion/MotionWrapper.jsx",
+          "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/lib/theme.js"
+        ],
+        "tailwind_config": {
+          "status": "ok",
+          "file": "frontend/tailwind.config.js"
+        },
+        "tokens_css": {
+          "status": "ok",
+          "file": "frontend/src/index.css"
+        },
+        "glass": {
+          "status": "ok",
+          "component": "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/components/common/GlassCard.jsx"
+        },
+        "motion": {
+          "status": "ok",
+          "presets": "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/lib/motionPresets.js",
+          "wrapper": "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/components/motion/MotionWrapper.jsx"
+        },
+        "theme": {
+          "status": "ok",
+          "theme": "C:/Users/AZAM COMPUTERS/OneDrive/Desktop/lumicorepro-core/generated-projects/generated-website-008/frontend/src/lib/theme.js",
+          "app_import": false
+        },
+        "conformance": {
+          "status": "violations",
+          "pass": false,
+          "raw_hex_count": 7,
+          "violations": [
+            "motion\\BorderBeam.jsx:18",
+            "ui\\GradientButton.jsx:10",
+            "ui\\GradientButton.jsx:11",
+            "ui\\GradientButton.jsx:12",
+            "ui\\HolographicCard.jsx:19",
+            "ui\\HolographicCard.jsx:28",
+            "ui\\HolographicCard.jsx:29"
+          ]
+        },
+        "doc": "C:\\Users\\AZAM COMPUTERS\\OneDrive\\Desktop\\lumicorepro-core\\generated-projects\\generated-website-008\\DESIGN-TOKENS.md"
+      },
+      "schema_contract": {
+        "applies": true,
+        "runtime_mode": "transactional",
+        "models": {
+          "total": 14,
+          "present": 14,
+          "missing": [],
+          "pass": true
+        },
+        "order_coupon_fk": {
+          "patched": [
+            "Order.js:coupon_id",
+            "index.js:Order.belongsTo(Coupon)"
+          ],
+          "status": "ok"
+        },
+        "fk": {
+          "pass": true,
+          "missing": [],
+          "checked": 18
+        },
+        "row_lock": {
+          "pass": true,
+          "checks": {
+            "transaction": {
+              "pass": true,
+              "hint": "checkout wrapped in a single DB transaction"
+            },
+            "row_lock": {
+              "pass": true,
+              "hint": "isolated SELECT ... FOR UPDATE row lock on product"
+            },
+            "stock_guard": {
+              "pass": true,
+              "hint": "stock guard checked while row is locked"
+            },
+            "atomic_decrement": {
+              "pass": true,
+              "hint": "atomic stock decrement inside the same transaction"
+            }
+          },
+          "sources": [
+            "services\\orderService.js",
+            "routes\\order.routes.js",
+            "routes\\orderRoutes.js"
+          ],
+          "passed": [
+            "transaction",
+            "row_lock",
+            "stock_guard",
+            "atomic_decrement"
+          ],
+          "missing": []
+        },
+        "artifacts": [
+          "C:\\Users\\AZAM COMPUTERS\\OneDrive\\Desktop\\lumicorepro-core\\generated-projects\\generated-website-008\\SCHEMA-CONTRACT.md",
+          "C:\\Users\\AZAM COMPUTERS\\OneDrive\\Desktop\\lumicorepro-core\\generated-projects\\generated-website-008\\database\\schemas\\schema.sql"
+        ]
+      },
+      "functional_compliance": {
+        "runtime_mode": "transactional",
+        "artifacts": [
+          "C:\\Users\\AZAM COMPUTERS\\OneDrive\\Desktop\\lumicorepro-core\\generated-projects\\generated-website-008\\QUALITY-GATES.md"
+        ],
+        "seo": {
+          "jsonld": {
+            "required": 14,
+            "types": [
+              "Organization"
+            ],
+            "missing_types": [
+              "WebSite",
+              "WebPage",
+              "Product",
+              "Offer",
+              "AggregateRating",
+              "BreadcrumbList",
+              "FAQPage",
+              "Service",
+              "LocalBusiness",
+              "Person",
+              "Article",
+              "Review",
+              "ImageObject"
+            ],
+            "pass": false,
+            "top_up": {
+              "status": "skip",
+              "reason": "no structured-data.js found"
+            }
+          },
+          "og": {
+            "pass": false,
+            "missing": [
+              "og:title",
+              "og:description",
+              "og:image",
+              "og:url",
+              "og:type",
+              "og:site_name",
+              "og:locale",
+              "twitter:card"
+            ],
+            "note": "no index.html found"
+          },
+          "headings": {
+            "pass": false,
+            "pages": 0,
+            "violations": []
+          }
+        },
+        "i18n": {
+          "bootstrap": {
+            "pass": true,
+            "rtl_support": true,
+            "injected": true
+          },
+          "hook": {
+            "file": "frontend/src/hooks/useAppTranslation.js",
+            "status": "injected"
+          },
+          "coverage": {
+            "components": 51,
+            "hook_using": 1,
+            "percent": 2.0
+          }
+        },
+        "code_quality": {
+          "eslint_pipeline": true,
+          "prettier_pipeline": true,
+          "gate_module": true,
+          "note": "ZIP archiving is blocked unless ESLint + Prettier pass (agent/quality_gate.py DevOps gate); verified wiring, not re-run here."
+        },
+        "doc": "C:\\Users\\AZAM COMPUTERS\\OneDrive\\Desktop\\lumicorepro-core\\generated-projects\\generated-website-008\\QUALITY-GATES.md"
+      }
+    }
+  },
+  "selected_resources": {
+    "template": "SaaS Platform & Dashboard",
+    "components_count": 45,
+    "components": [
+      "PricingToggle",
+      "PricingCard",
+      "Typewriter",
+      "ModernFooter",
+      "UniqueLogo",
+      "BrandLogo",
+      "Language",
+      "BentoGrid",
+      "TextMorph",
+      "Modal",
+      "Accordion",
+      "Alert",
+      "Avatar",
+      "Divider",
+      "Loading",
+      "Pagination",
+      "Progress",
+      "Spinner",
+      "Badge",
+      "Breadcrumb",
+      "Button",
+      "ButtonMotion",
+      "Card",
+      "Dropdown",
+      "Empty",
+      "IconButton",
+      "Skeleton",
+      "Tabs",
+      "Tooltip",
+      "GradientButton",
+      "NeumorphButton",
+      "PixelButton",
+      "PixelCard",
+      "BlockBar",
+      "SpotlightCard",
+      "TiltCard",
+      "HolographicCard",
+      "CookieConsent",
+      "TextAnimate",
+      "GlassNavbar",
+      "SpotlightGrid",
+      "BorderBeam",
+      "Marquee",
+      "AnimatedNumber",
+      "Dock"
+    ],
+    "images_count": 20,
+    "icons_count": 0,
+    "animations_count": 0,
+    "backend": "E-Commerce Modular Base API",
+    "database_schemas": [
+      "E-Commerce Master Schema",
+      "Users & Auth Schema"
+    ],
+    "tech_stack": {
+      "frontend": {
+        "framework": "react",
+        "bundler": "vite",
+        "styling": "tailwindcss",
+        "charts": "recharts"
+      },
+      "backend": {
+        "runtime": "node",
+        "framework": "express",
+        "auth": "jwt+bcrypt",
+        "selected_module": "E-Commerce Modular Base API",
+        "module_path": "backend-library/ecommerce-base"
+      },
+      "database": {
+        "engine": "postgresql",
+        "orm": "raw-sql",
+        "cache": "redis-recommended",
+        "schemas": [
+          "E-Commerce Master Schema",
+          "Users & Auth Schema"
+        ],
+        "schema_count": 2
+      },
+      "payments": "stripe-subscriptions",
+      "deployment_targets": [
+        "vercel",
+        "aws",
+        "gcp"
+      ],
+      "scale_considerations": [
+        "enterprise"
+      ],
+      "rationale": "React + Vite chosen for saas due to component reuse from the shared UI library, fast HMR, and postgresql compatibility for structured data."
+    },
+    "trending_features": [
+      "social_proof",
+      "whatsapp_float",
+      "ai_chat",
+      "pwa_support",
+      "personalization",
+      "i18n_multilingual",
+      "exit_intent_popup"
+    ]
+  },
+  "ai_api_calls_made": 13,
+  "validation_results": {
+    "valid": false,
+    "errors": [
+      "Frontend missing required file: package.json",
+      "Frontend missing required file: src/App.jsx",
+      "[contract] Component 'BentoGrid.jsx' uses prop 'span' undefined in local contract (children, className, columns, gap, key, lg, md, ref).",
+      "[contract] Component 'BentoGrid.jsx' uses prop 'rowSpan' undefined in local contract (children, className, columns, gap, key, lg, md, ref).",
+      "[contract] Component 'Dropdown.jsx' uses prop 'onClick' undefined in local contract (align, animate, children, className, closeOnSelect, defaultOpen, key, label, menuClassName, onClose, onOpenChange, open, ref, trigger).",
+      "[contract] Component 'Dropdown.jsx' uses prop 'icon' undefined in local contract (align, animate, children, className, closeOnSelect, defaultOpen, key, label, menuClassName, onClose, onOpenChange, open, ref, trigger).",
+      "[contract] Component 'Dropdown.jsx' uses prop 'danger' undefined in local contract (align, animate, children, className, closeOnSelect, defaultOpen, key, label, menuClassName, onClose, onOpenChange, open, ref, trigger).",
+      "[contract] Component 'Dropdown.jsx' uses prop 'disabled' undefined in local contract (align, animate, children, className, closeOnSelect, defaultOpen, key, label, menuClassName, onClose, onOpenChange, open, ref, trigger)."
+    ],
+    "warnings": [
+      "Frontend references 'import.meta.env.VITE_LEADS_WEBHOOK' which is missing from .env.example.",
+      "Frontend references 'import.meta.env.VITE_MIXPANEL_TOKEN' which is missing from .env.example.",
+      "Frontend references 'import.meta.env.VITE_POSTHOG_HOST' which is missing from .env.example.",
+      "Frontend references 'import.meta.env.VITE_POSTHOG_KEY' which is missing from .env.example.",
+      "Frontend references 'import.meta.env.VITE_FATHOM_SITE_ID' which is missing from .env.example.",
+      "Frontend references 'import.meta.env.VITE_PLAUSIBLE_HOST' which is missing from .env.example.",
+      "Frontend references 'import.meta.env.VITE_PLAUSIBLE_DOMAIN' which is missing from .env.example.",
+      "Frontend references 'import.meta.env.VITE_WHATSAPP_NUMBER' which is missing from .env.example.",
+      "Frontend references 'import.meta.env.VITE_API_TIMEOUT' which is missing from .env.example.",
+      "Frontend references 'import.meta.env.VITE_GA4_ID' which is missing from .env.example.",
+      "Frontend references 'import.meta.env.VITE_FORMSPREE_ID' which is missing from .env.example.",
+      "Backend code requires 'pg' but it is missing from package.json dependencies.",
+      "Backend code requires 'axios' but it is missing from package.json dependencies.",
+      "Backend code requires 'sequelize' but it is missing from package.json dependencies.",
+      "Backend references 'process.env.DB_USER' which is missing from .env.example.",
+      "Backend references 'process.env.DB_HOST' which is missing from .env.example.",
+      "Backend references 'process.env.AI_TOKEN_BUDGET' which is missing from .env.example.",
+      "Backend references 'process.env.GITHUB_CLIENT_SECRET' which is missing from .env.example.",
+      "Backend references 'process.env.AI_SERVICE_API_KEY' which is missing from .env.example.",
+      "Backend references 'process.env.STRIPE_SECRET_KEY' which is missing from .env.example.",
+      "Backend references 'process.env.JWT_EXPIRE' which is missing from .env.example.",
+      "Backend references 'process.env.REDIS_URL' which is missing from .env.example.",
+      "Backend references 'process.env.PAYTM_CHANNEL_ID' which is missing from .env.example.",
+      "Backend references 'process.env.STRIPE_PRODUCT_AGENCY' which is missing from .env.example.",
+      "Backend references 'process.env.FLUTTERWAVE_PUBLIC_KEY' which is missing from .env.example.",
+      "Backend references 'process.env.AI_MAX_TOKENS_CHAT' which is missing from .env.example.",
+      "Backend references 'process.env.SMTP_HOST' which is missing from .env.example.",
+      "Backend references 'process.env.BKASH_USERNAME' which is missing from .env.example.",
+      "Backend references 'process.env.TURNSTILE_ENABLED' which is missing from .env.example.",
+      "Backend references 'process.env.AI_DAILY_GEN_LIMIT' which is missing from .env.example.",
+      "Backend references 'process.env.PAYTM_WEBSITE' which is missing from .env.example.",
+      "Backend references 'process.env.LIQPAY_PUBLIC_KEY' which is missing from .env.example.",
+      "Backend references 'process.env.APP_DOMAIN' which is missing from .env.example.",
+      "Backend references 'process.env.FLUTTERWAVE_WEBHOOK_SECRET' which is missing from .env.example.",
+      "Backend references 'process.env.BKASH_APP_KEY' which is missing from .env.example.",
+      "Backend references 'process.env.STRIPE_PRODUCT_CREDITS_100' which is missing from .env.example.",
+      "Backend references 'process.env.GITHUB_CLIENT_ID' which is missing from .env.example.",
+      "Backend references 'process.env.PADDLE_API_KEY' which is missing from .env.example.",
+      "Backend references 'process.env.BKASH_PASSWORD' which is missing from .env.example.",
+      "Backend references 'process.env.AI_AGENT_URL' which is missing from .env.example.",
+      "Backend references 'process.env.STRIPE_PRICE_CREDITS_100' which is missing from .env.example.",
+      "Backend references 'process.env.AI_AVG_TOKENS_VISION' which is missing from .env.example.",
+      "Backend references 'process.env.AI_AVG_TOKENS_GENERATION' which is missing from .env.example.",
+      "Backend references 'process.env.TURNSTILE_SITE_KEY' which is missing from .env.example.",
+      "Backend references 'process.env.DEEPSEEK_API_KEY' which is missing from .env.example.",
+      "Backend references 'process.env.RAZORPAY_KEY_ID' which is missing from .env.example.",
+      "Backend references 'process.env.SENTRY_TRACES_SAMPLE_RATE' which is missing from .env.example.",
+      "Backend references 'process.env.GOOGLE_CLIENT_ID' which is missing from .env.example.",
+      "Backend references 'process.env.AI_TOKEN_COST_PER_1K' which is missing from .env.example.",
+      "Backend references 'process.env.AI_CB_BLOCK_SECS' which is missing from .env.example.",
+      "Backend references 'process.env.STRIPE_PRICE_STARTER' which is missing from .env.example.",
+      "Backend references 'process.env.BKASH_MERCHANT_ID' which is missing from .env.example.",
+      "Backend references 'process.env.LICENSE_PRODUCT' which is missing from .env.example.",
+      "Backend references 'process.env.PAYPAL_CLIENT_ID' which is missing from .env.example.",
+      "Backend references 'process.env.TURNSTILE_SECRET_KEY' which is missing from .env.example.",
+      "Backend references 'process.env.MOLLIE_API_KEY' which is missing from .env.example.",
+      "Backend references 'process.env.WAITLIST_AUTO_APPROVE_DAILY' which is missing from .env.example.",
+      "Backend references 'process.env.FRONTEND_URL' which is missing from .env.example.",
+      "Backend references 'process.env.FLUTTERWAVE_ENCRYPTION_KEY' which is missing from .env.example.",
+      "Backend references 'process.env.GOOGLE_CLIENT_SECRET' which is missing from .env.example.",
+      "Backend references 'process.env.PAYTM_INDUSTRY_TYPE' which is missing from .env.example.",
+      "Backend references 'process.env.VALID_API_KEYS' which is missing from .env.example.",
+      "Backend references 'process.env.AI_MAX_TOKENS_GENERATION' which is missing from .env.example.",
+      "Backend references 'process.env.EMAIL_FROM_ADDRESS' which is missing from .env.example.",
+      "Backend references 'process.env.STRIPE_PRODUCT_CREDITS_25' which is missing from .env.example.",
+      "Backend references 'process.env.STRIPE_PRICE_CREDITS_25' which is missing from .env.example.",
+      "Backend references 'process.env.DB_PASSWORD' which is missing from .env.example.",
+      "Backend references 'process.env.RATE_LIMIT_MAX_REQUESTS' which is missing from .env.example.",
+      "Backend references 'process.env.MARKETPLACE_SELLER_NAME' which is missing from .env.example.",
+      "Backend references 'process.env.AI_WEEKLY_BUDGET' which is missing from .env.example.",
+      "Backend references 'process.env.STRIPE_WEBHOOK_SECRET' which is missing from .env.example.",
+      "Backend references 'process.env.STRIPE_PRICE_AGENCY' which is missing from .env.example.",
+      "Backend references 'process.env.SQUARE_LOCATION_ID' which is missing from .env.example.",
+      "Backend references 'process.env.LICENSE_TRIAL_DAYS' which is missing from .env.example.",
+      "Backend references 'process.env.STRIPE_PRICE_PRO' which is missing from .env.example.",
+      "Backend references 'process.env.AI_DAILY_VISION_LIMIT' which is missing from .env.example.",
+      "Backend references 'process.env.SMTP_USER' which is missing from .env.example.",
+      "Backend references 'process.env.ANTHROPIC_API_KEY' which is missing from .env.example.",
+      "Backend references 'process.env.ALLOWED_ORIGINS' which is missing from .env.example.",
+      "Backend references 'process.env.PAYPAL_WEBHOOK_ID' which is missing from .env.example.",
+      "Backend references 'process.env.LOG_LEVEL' which is missing from .env.example.",
+      "Backend references 'process.env.GEMINI_API_KEY' which is missing from .env.example.",
+      "Backend references 'process.env.STRIPE_PRODUCT_PRO' which is missing from .env.example.",
+      "Backend references 'process.env.SMTP_PASS' which is missing from .env.example.",
+      "Backend references 'process.env.RAZORPAY_KEY_SECRET' which is missing from .env.example.",
+      "Backend references 'process.env.OPENROUTER_API_KEY' which is missing from .env.example.",
+      "Backend references 'process.env.MERCADOPAGO_ACCESS_TOKEN' which is missing from .env.example.",
+      "Backend references 'process.env.MISTRAL_API_KEY' which is missing from .env.example.",
+      "Backend references 'process.env.INTERNAL_WEBHOOK_SECRET' which is missing from .env.example.",
+      "Backend references 'process.env.PAYPAL_CLIENT_SECRET' which is missing from .env.example.",
+      "Backend references 'process.env.AI_MAX_TOKENS_VISION' which is missing from .env.example.",
+      "Backend references 'process.env.PADDLE_WEBHOOK_SECRET' which is missing from .env.example.",
+      "Backend references 'process.env.PAYMENT_GATEWAYS_ENABLED' which is missing from .env.example.",
+      "Backend references 'process.env.WAITLIST_MODE' which is missing from .env.example.",
+      "Backend references 'process.env.MERCADOPAGO_WEBHOOK_PASSWORD' which is missing from .env.example.",
+      "Backend references 'process.env.SMTP_PORT' which is missing from .env.example.",
+      "Backend references 'process.env.RAZORPAY_WEBHOOK_SECRET' which is missing from .env.example.",
+      "Backend references 'process.env.SQUARE_ACCESS_TOKEN' which is missing from .env.example.",
+      "Backend references 'process.env.AI_AVG_TOKENS_CHAT' which is missing from .env.example.",
+      "Backend references 'process.env.LIQPAY_PRIVATE_KEY' which is missing from .env.example.",
+      "Backend references 'process.env.MERCADOPAGO_PUBLIC_KEY' which is missing from .env.example.",
+      "Backend references 'process.env.ACTIVE_AI_PROVIDER' which is missing from .env.example.",
+      "Backend references 'process.env.MOLLIE_ORGANIZATION_ID' which is missing from .env.example.",
+      "Backend references 'process.env.DB_PORT' which is missing from .env.example.",
+      "Backend references 'process.env.AI_MAX_CONCURRENT' which is missing from .env.example.",
+      "Backend references 'process.env.WEBHOOK_ENDPOINTS' which is missing from .env.example.",
+      "Backend references 'process.env.PAYTM_MERCHANT_KEY' which is missing from .env.example.",
+      "Backend references 'process.env.AI_CB_MAX_REQUESTS' which is missing from .env.example.",
+      "Backend references 'process.env.MAX_FILE_SIZE' which is missing from .env.example.",
+      "Backend references 'process.env.DB_NAME' which is missing from .env.example.",
+      "Backend references 'process.env.UPLOAD_DIR' which is missing from .env.example.",
+      "Backend references 'process.env.PAYTM_MODE' which is missing from .env.example.",
+      "Backend references 'process.env.APP_BRAND' which is missing from .env.example.",
+      "Backend references 'process.env.PAYTM_MERCHANT_ID' which is missing from .env.example.",
+      "Backend references 'process.env.JWT_REFRESH_EXPIRE' which is missing from .env.example.",
+      "Backend references 'process.env.PADDLE_ENV' which is missing from .env.example.",
+      "Backend references 'process.env.PAYPAL_MODE' which is missing from .env.example.",
+      "Backend references 'process.env.REDIS_DISABLED' which is missing from .env.example.",
+      "Backend references 'process.env.STRIPE_PRODUCT_STARTER' which is missing from .env.example.",
+      "Backend references 'process.env.AI_DAILY_CHAT_LIMIT' which is missing from .env.example.",
+      "Backend references 'process.env.BKASH_APP_SECRET' which is missing from .env.example.",
+      "Backend references 'process.env.STRIPE_PUBLISHABLE_KEY' which is missing from .env.example.",
+      "Backend references 'process.env.BACKEND_URL' which is missing from .env.example.",
+      "Backend references 'process.env.DEFAULT_CURRENCY' which is missing from .env.example.",
+      "Backend references 'process.env.DEMO_MODE' which is missing from .env.example.",
+      "Backend references 'process.env.SENTRY_DSN' which is missing from .env.example.",
+      "Backend references 'process.env.SQUARE_ENVIRONMENT' which is missing from .env.example.",
+      "Backend references 'process.env.FLUTTERWAVE_SECRET_KEY' which is missing from .env.example.",
+      "Backend references 'process.env.JWT_REFRESH_SECRET' which is missing from .env.example.",
+      "Backend references 'process.env.LICENSE_SECRET' which is missing from .env.example.",
+      "SQL Schema foreign key references table 'products', but table 'products' is not defined in merged schema.",
+      "SQL Schema foreign key references table 'products', but table 'products' is not defined in merged schema.",
+      "SQL Schema foreign key references table 'products', but table 'products' is not defined in merged schema.",
+      "[contract] Component 'CookieConsent.jsx' defines empty props signature.",
+      "[contract] Component 'DarkModeToggle.jsx' defines empty props signature.",
+      "[contract] Component 'WhatsappFloat.jsx' defines empty props signature.",
+      "[contract] Component 'DashboardPage.jsx' defines empty props signature.",
+      "[contract] Component 'PricingTable.jsx' defines empty props signature.",
+      "[contract] Component 'FeaturesSection.jsx' defines empty props signature.",
+      "[contract] Component 'Hero.jsx' defines empty props signature.",
+      "[contract] Component 'SocialProofSection.jsx' defines empty props signature."
+    ],
+    "frontend": {
+      "status": "FAILED",
+      "files_checked": 87,
+      "imports_checked": [
+        "@/config",
+        "framer-motion",
+        "axios",
+        "react-router-dom",
+        "@tanstack/react-query",
+        "react",
+        "i18next-browser-languagedetector",
+        "lucide-react",
+        "@/components",
+        "zustand",
+        "i18next",
+        "@/hooks",
+        "react-i18next"
+      ]
+    },
+    "backend": {
+      "status": "PASSED",
+      "files_checked": 146,
+      "requires_checked": [
+        "express",
+        "compression",
+        "helmet",
+        "express-rate-limit",
+        "pg",
+        "axios",
+        "morgan",
+        "bcryptjs",
+        "dotenv",
+        "cors",
+        "swagger-ui-express",
+        "jsonwebtoken",
+        "sequelize"
+      ]
+    },
+    "database": {
+      "status": "PASSED",
+      "tables_found": [
+        "carts",
+        "cart_items",
+        "wishlists",
+        "orders",
+        "order_items",
+        "coupons",
+        "users",
+        "addresses"
+      ]
+    },
+    "components": {
+      "status": "FAILED",
+      "checked_components": 60,
+      "errors": [
+        "Component 'BentoGrid.jsx' uses prop 'span' undefined in local contract (children, className, columns, gap, key, lg, md, ref).",
+        "Component 'BentoGrid.jsx' uses prop 'rowSpan' undefined in local contract (children, className, columns, gap, key, lg, md, ref).",
+        "Component 'Dropdown.jsx' uses prop 'onClick' undefined in local contract (align, animate, children, className, closeOnSelect, defaultOpen, key, label, menuClassName, onClose, onOpenChange, open, ref, trigger).",
+        "Component 'Dropdown.jsx' uses prop 'icon' undefined in local contract (align, animate, children, className, closeOnSelect, defaultOpen, key, label, menuClassName, onClose, onOpenChange, open, ref, trigger).",
+        "Component 'Dropdown.jsx' uses prop 'danger' undefined in local contract (align, animate, children, className, closeOnSelect, defaultOpen, key, label, menuClassName, onClose, onOpenChange, open, ref, trigger).",
+        "Component 'Dropdown.jsx' uses prop 'disabled' undefined in local contract (align, animate, children, className, closeOnSelect, defaultOpen, key, label, menuClassName, onClose, onOpenChange, open, ref, trigger)."
+      ],
+      "warnings": [
+        "Component 'CookieConsent.jsx' defines empty props signature.",
+        "Component 'DarkModeToggle.jsx' defines empty props signature.",
+        "Component 'WhatsappFloat.jsx' defines empty props signature.",
+        "Component 'DashboardPage.jsx' defines empty props signature.",
+        "Component 'PricingTable.jsx' defines empty props signature.",
+        "Component 'FeaturesSection.jsx' defines empty props signature.",
+        "Component 'Hero.jsx' defines empty props signature.",
+        "Component 'SocialProofSection.jsx' defines empty props signature."
+      ]
+    }
+  },
+  "quality_gates": {
+    "gates": {
+      "performance": {
+        "passed": true,
+        "checks": [
+          {
+            "check": "tailwind_css",
+            "passed": true
+          }
+        ],
+        "target_lighthouse": 95
+      },
+      "security": {
+        "passed": true,
+        "checks": [
+          {
+            "check": "helmet_middleware",
+            "passed": true
+          },
+          {
+            "check": "rate_limiting",
+            "passed": true
+          },
+          {
+            "check": "cors_configured",
+            "passed": true
+          },
+          {
+            "check": "env_secrets_not_committed",
+            "passed": true
+          }
+        ]
+      },
+      "features": {
+        "passed": true,
+        "feature_count": 13,
+        "minimum_required": 5,
+        "trending_count": 7
+      },
+      "assets": {
+        "passed": false,
+        "real_assets": 7,
+        "ai_generated_detected": 1
+      },
+      "code_quality": {
+        "passed": false,
+        "errors": 8,
+        "warnings": 141
+      },
+      "differentiation": {
+        "passed": true,
+        "unique_features": 7,
+        "minimum_required": 3
+      },
+      "international_compliance": {
+        "passed": true,
+        "checks": [
+          {
+            "check": "i18n_support",
+            "passed": true,
+            "weight": 1.0
+          },
+          {
+            "check": "cookie_consent",
+            "passed": true,
+            "weight": 1.5
+          },
+          {
+            "check": "pwa_manifest",
+            "passed": true,
+            "weight": 1.0
+          },
+          {
+            "check": "service_worker",
+            "passed": false,
+            "weight": 1.0
+          },
+          {
+            "check": "robots_txt",
+            "passed": true,
+            "weight": 0.5
+          },
+          {
+            "check": "sitemap_xml",
+            "passed": true,
+            "weight": 0.5
+          },
+          {
+            "check": "rtl_support",
+            "passed": true,
+            "weight": 1.0
+          },
+          {
+            "check": "whatsapp_integration",
+            "passed": true,
+            "weight": 1.0
+          },
+          {
+            "check": "accessibility_aria",
+            "passed": true,
+            "weight": 1.0
+          },
+          {
+            "check": "dark_mode_support",
+            "passed": true,
+            "weight": 0.5
+          },
+          {
+            "check": "mobile_responsive",
+            "passed": true,
+            "weight": 1.0
+          }
+        ],
+        "compliance_score": 90.0,
+        "international_ready": true,
+        "weighted_threshold": 75
+      },
+      "accessibility": {
+        "passed": true,
+        "checks": [
+          {
+            "check": "semantic_landmarks",
+            "passed": true
+          },
+          {
+            "check": "accessible_labels",
+            "passed": true
+          },
+          {
+            "check": "keyboard_focus",
+            "passed": true
+          },
+          {
+            "check": "reduced_motion",
+            "passed": true
+          }
+        ],
+        "score": 100.0
+      },
+      "deployment_readiness": {
+        "passed": false,
+        "checks": [
+          {
+            "check": "frontend\\package.json",
+            "passed": false
+          },
+          {
+            "check": "backend\\package.json",
+            "passed": true
+          },
+          {
+            "check": "backend\\server.js",
+            "passed": true
+          },
+          {
+            "check": "database\\schema.sql",
+            "passed": true
+          },
+          {
+            "check": "docker-compose.yml",
+            "passed": true
+          },
+          {
+            "check": "frontend\\Dockerfile",
+            "passed": true
+          }
+        ],
+        "score": 83.3
+      },
+      "marketplace_docs": {
+        "passed": true,
+        "checks": [
+          {
+            "check": "readme_present",
+            "passed": true
+          },
+          {
+            "check": "readme_sections",
+            "passed": true,
+            "missing": []
+          },
+          {
+            "check": "license",
+            "passed": true
+          },
+          {
+            "check": "env_example",
+            "passed": true
+          }
+        ]
+      },
+      "pro_ui": {
+        "passed": true,
+        "checks": [
+          {
+            "check": "lucide_icons",
+            "passed": true
+          },
+          {
+            "check": "brand_logo",
+            "passed": true
+          },
+          {
+            "check": "dark_mode",
+            "passed": true
+          },
+          {
+            "check": "responsive",
+            "passed": true
+          },
+          {
+            "check": "pro_footer_or_nav",
+            "passed": true
+          }
+        ],
+        "score": 100.0
+      }
+    },
+    "passed_count": 8,
+    "total_gates": 11,
+    "overall_score": 72.7,
+    "marketplace_ready": false,
+    "enterprise_ready": false,
+    "targets": {
+      "lighthouse_performance": 95,
+      "lighthouse_accessibility": 90,
+      "lighthouse_best_practices": 90,
+      "lighthouse_seo": 90,
+      "first_contentful_paint": 1.2,
+      "time_to_interactive": 2.5,
+      "animation_fps": 60
+    },
+    "github_recovery_hint": null
+  },
+  "improvement_recommendations": {
+    "total_recommendations": 10,
+    "recommendations": [
+      {
+        "id": "conv_whatsapp",
+        "title": "Add WhatsApp floating chat button (3-5x better than contact forms)",
+        "roi": 94,
+        "effort_hours": 1,
+        "category": "conversion",
+        "international_priority": true,
+        "reason": "International market requirement",
+        "roi_effort_ratio": 94.0
+      },
+      {
+        "id": "seo_sitemap_robots",
+        "title": "Generate sitemap.xml + robots.txt + canonical URLs",
+        "roi": 80,
+        "effort_hours": 1,
+        "category": "seo",
+        "international_priority": true,
+        "reason": "International market requirement",
+        "roi_effort_ratio": 80.0
+      },
+      {
+        "id": "perf_images_webp",
+        "title": "Optimize images: WebP + lazy loading + AVIF fallback",
+        "roi": 96,
+        "effort_hours": 2,
+        "category": "performance",
+        "international_priority": true,
+        "reason": "International market requirement",
+        "roi_effort_ratio": 48.0
+      },
+      {
+        "id": "perf_cdn",
+        "title": "Deploy static assets to CDN (Cloudflare / Vercel Edge)",
+        "roi": 90,
+        "effort_hours": 2,
+        "category": "performance",
+        "international_priority": true,
+        "reason": "International market requirement",
+        "roi_effort_ratio": 45.0
+      },
+      {
+        "id": "sec_rate_limit",
+        "title": "Implement API rate limiting + DDoS protection headers",
+        "roi": 88,
+        "effort_hours": 2,
+        "category": "security",
+        "international_priority": true,
+        "reason": "International market requirement",
+        "roi_effort_ratio": 44.0
+      },
+      {
+        "id": "legal_gdpr_cookie",
+        "title": "GDPR/CCPA compliant cookie consent banner",
+        "roi": 83,
+        "effort_hours": 2,
+        "category": "legal",
+        "international_priority": true,
+        "reason": "International market requirement",
+        "roi_effort_ratio": 41.5
+      },
+      {
+        "id": "ops_monitoring",
+        "title": "Set up error monitoring with Sentry + uptime alerts",
+        "roi": 82,
+        "effort_hours": 2,
+        "category": "ops",
+        "international_priority": true,
+        "reason": "Multiple validation warnings detected",
+        "roi_effort_ratio": 41.0
+      },
+      {
+        "id": "seo_hreflang",
+        "title": "Add hreflang tags for multilingual/multi-region support",
+        "roi": 78,
+        "effort_hours": 2,
+        "category": "seo",
+        "international_priority": true,
+        "reason": "International market requirement",
+        "roi_effort_ratio": 39.0
+      },
+      {
+        "id": "seo_meta_og",
+        "title": "Complete Open Graph + Twitter Card meta tags per page",
+        "roi": 76,
+        "effort_hours": 2,
+        "category": "seo",
+        "international_priority": true,
+        "reason": "International market requirement",
+        "roi_effort_ratio": 38.0
+      },
+      {
+        "id": "legal_privacy_policy",
+        "title": "Add Privacy Policy + Terms of Service pages",
+        "roi": 75,
+        "effort_hours": 2,
+        "category": "legal",
+        "international_priority": true,
+        "reason": "International market requirement",
+        "roi_effort_ratio": 37.5
+      }
+    ],
+    "estimated_total_hours": 18,
+    "priority_order": [
+      "conv_whatsapp",
+      "seo_sitemap_robots",
+      "perf_images_webp",
+      "perf_cdn",
+      "sec_rate_limit",
+      "legal_gdpr_cookie",
+      "ops_monitoring",
+      "seo_hreflang",
+      "seo_meta_og",
+      "legal_privacy_policy"
+    ],
+    "international_compliance": {
+      "gdpr_ready": true,
+      "pwa_ready": false,
+      "seo_ready": true
+    }
+  },
+  "competitive_benchmark": {
+    "industry": "ai",
+    "website_type": "saas",
+    "competitors_global": [
+      "Notion",
+      "Linear",
+      "Stripe",
+      "Vercel"
+    ],
+    "competitors_pk": [
+      "Rozee.pk",
+      "Zameen.com",
+      "Bookme.pk"
+    ],
+    "pk_market_growth": "+55% YoY",
+    "pk_mobile_share": "45%",
+    "our_metrics": {
+      "feature_count": 13,
+      "lighthouse_target": 96,
+      "quality_score": 72.7,
+      "must_have_coverage": 40.0
+    },
+    "industry_averages": {
+      "avg_lighthouse": 78,
+      "avg_features": 10,
+      "avg_load_time_ms": 2800,
+      "must_have": [
+        "pricing",
+        "auth",
+        "dashboard",
+        "analytics",
+        "free_trial"
+      ],
+      "top_competitors_global": [
+        "Notion",
+        "Linear",
+        "Stripe",
+        "Vercel"
+      ],
+      "top_competitors_pk": [
+        "Rozee.pk",
+        "Zameen.com",
+        "Bookme.pk"
+      ],
+      "pk_mobile_share": "45%",
+      "pk_market_growth": "+55% YoY"
+    },
+    "competitive_advantages": [
+      "Lighthouse target 96 vs industry avg 78",
+      "13 features vs industry avg 10",
+      "Component-library reuse — 95% token savings vs generic AI",
+      "PWA-ready: offline mode + install prompt + push notifications",
+      "Multi-language support — reaches 4.5B+ non-English internet users",
+      "WhatsApp CTA — 3-5x better conversion in South Asia & MENA"
+    ],
+    "market_positioning": "Premium personal creative platform with positioned for +25% YoY market growth.",
+    "launch_ready": false,
+    "vs_generic_ai": {
+      "market_analysis": true,
+      "tech_optimization": true,
+      "trending_features": true,
+      "quality_gates": true,
+      "competitive_benchmark": true,
+      "deploy_ready": true,
+      "multilingual": true,
+      "pwa_ready": true,
+      "whatsapp_cta": true
+    }
+  },
+  "enterprise_ready": false,
+  "launch_ready": false,
+  "live_preview_url": "",
+  "international": {
+    "region": "NA",
+    "primary_currency": "USD",
+    "payment_gateways": [
+      "Stripe",
+      "PayPal",
+      "Square"
+    ],
+    "languages_generated": [
+      "ar",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "id",
+      "ja",
+      "ko",
+      "pt",
+      "ru",
+      "tr",
+      "zh"
+    ],
+    "total_languages": 13,
+    "rtl_support": false,
+    "rtl_languages": [
+      "ar"
+    ],
+    "compliance_regs": [
+      "CCPA",
+      "PIPEDA",
+      "GDPR"
+    ],
+    "compliance_artifacts": 5,
+    "requires_consent_banner": true,
+    "accessibility_score": 64.3,
+    "wcag_aa_compliant": false
+  },
+  "seo_and_edge": {
+    "pages_optimized": 7,
+    "sitemap_url": "https://project.com/sitemap.xml",
+    "cdn_platforms": [
+      "vercel",
+      "netlify",
+      "nginx",
+      "cloudflare"
+    ]
+  },
+  "performance_and_growth": {
+    "performance_targets": {
+      "lcp_ms": 2500,
+      "cls": 0.05,
+      "inp_ms": 150,
+      "ttfb_ms": 600,
+      "fcp_ms": 1500,
+      "tbt_ms": 200,
+      "lighthouse": {
+        "performance": 90,
+        "accessibility": 92,
+        "best_practices": 93,
+        "seo": 90
+      },
+      "bundle_kb": {
+        "js": 300,
+        "css": 70,
+        "total": 500
+      },
+      "note": "SaaS: dashboard routes can lazy-load; landing must be fast"
+    },
+    "analytics_events": 12,
+    "ab_experiments": 3,
+    "webhook_events": 10
+  },
+  "multi_cloud_deployment": {
+    "supported_clouds": [
+      "vercel",
+      "railway",
+      "render",
+      "aws",
+      "gcp",
+      "digitalocean"
+    ],
+    "artifacts_count": 9,
+    "recommended_platform": "vercel",
+    "estimated_monthly_cost": {
+      "vercel": {
+        "monthly_usd": "$0",
+        "class": "static-site"
+      },
+      "cloudflare": {
+        "monthly_usd": "$0",
+        "class": "static-site"
+      },
+      "netlify": {
+        "monthly_usd": "$0",
+        "class": "static-site"
+      },
+      "github": {
+        "monthly_usd": "$0",
+        "class": "static-site"
+      },
+      "railway": {
+        "monthly_usd": "$5",
+        "class": "app-server"
+      },
+      "render": {
+        "monthly_usd": "$0",
+        "class": "app-server"
+      },
+      "digitalocean": {
+        "monthly_usd": "$12",
+        "class": "app-server"
+      },
+      "aws": {
+        "monthly_usd": "$7",
+        "class": "app-server"
+      },
+      "gcp": {
+        "monthly_usd": "$6",
+        "class": "app-server"
+      }
+    }
+  },
+  "design_style": {
+    "style": "skipper",
+    "name": "Skipper Minimalist Dark",
+    "dna": "Refined spotlight grids, dark bento boxes, subtle specular reflections, border beams, clean typography.",
+    "accent": "#a855f7",
+    "palette": {
+      "primary": "#38bdf8",
+      "secondary": "#64748b",
+      "accent": "#a855f7",
+      "bg": "#020617",
+      "card": "rgba(15,23,42,0.85)",
+      "surface": "rgba(30,41,59,0.6)",
+      "text": "#f8fafc",
+      "muted": "#94a3b8",
+      "border": "rgba(51,65,85,0.7)"
+    },
+    "typography": {
+      "display": "Inter",
+      "sans": "Inter",
+      "mono": "JetBrains Mono"
+    },
+    "selected_by": "user",
+    "tokens_json": "C:\\Users\\AZAM COMPUTERS\\OneDrive\\Desktop\\lumicorepro-core\\generated-projects\\generated-website-008\\frontend\\design-tokens.json",
+    "css_file": "C:\\Users\\AZAM COMPUTERS\\OneDrive\\Desktop\\lumicorepro-core\\generated-projects\\generated-website-008\\frontend\\src\\index.css",
+    "assets_dir": "C:\\Users\\AZAM COMPUTERS\\OneDrive\\Desktop\\lumicorepro-core\\generated-projects\\generated-website-008\\frontend\\public\\assets\\skipper",
+    "assets_generated": 27,
+    "manifest_path": "C:\\Users\\AZAM COMPUTERS\\OneDrive\\Desktop\\lumicorepro-core\\generated-projects\\generated-website-008\\frontend\\public\\assets\\manifest.json",
+    "design_doc": "C:\\Users\\AZAM COMPUTERS\\OneDrive\\Desktop\\lumicorepro-core\\generated-projects\\generated-website-008\\DESIGN-STYLE.md"
+  },
+  "theme_variant": {
+    "variant": {
+      "template_id": "saas-platform-dashboard",
+      "template": "SaaS Platform & Dashboard",
+      "category": "saas",
+      "style_id": "skipper",
+      "style_name": "Skipper Minimalist Dark",
+      "variant_id": "saas-platform-dashboard::skipper",
+      "variant_count_total": 5
+    },
+    "variant_count_total": 292,
+    "compatible_styles": [
+      "glassmorphism",
+      "bento_grid",
+      "minimalism",
+      "aurora",
+      "flat_design"
+    ],
+    "quality_gate": {
+      "variant_id": "saas-platform-dashboard::skipper",
+      "style_id": "skipper",
+      "template_id": "saas-platform-dashboard",
+      "production_ready": true,
+      "checks": {
+        "contrast_text_on_bg": {
+          "pass": true,
+          "ratio": 19.28,
+          "required": 4.5
+        },
+        "contrast_text_on_card": {
+          "pass": true,
+          "ratio": 20.07,
+          "required": 4.5
+        },
+        "responsive_breakpoints": {
+          "pass": true,
+          "covered": [
+            "mobile",
+            "tablet",
+            "laptop",
+            "wide"
+          ],
+          "required": [
+            "mobile",
+            "tablet",
+            "laptop",
+            "wide"
+          ]
+        },
+        "lighthouse_budget": {
+          "pass": null,
+          "need_run": true,
+          "desktop_required": 90,
+          "mobile_required": 80,
+          "note": "Headless-browser pass required (scripts/generate_previews.py provisionally)."
+        }
+      },
+      "budget": {
+        "lighthouse_desktop": 90,
+        "lighthouse_mobile": 80
+      }
+    },
+    "preview_manifest": {
+      "gallery": "Browse before you generate (self-hosted)",
+      "active_variant": {
+        "template_id": "saas-platform-dashboard",
+        "template": "SaaS Platform & Dashboard",
+        "category": "saas",
+        "style_id": "skipper",
+        "style_name": "Skipper Minimalist Dark",
+        "variant_id": "saas-platform-dashboard::skipper",
+        "variant_count_total": 5
+      },
+      "captured": 0
+    }
+  }
+}

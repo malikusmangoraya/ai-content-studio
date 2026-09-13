@@ -1,0 +1,19 @@
+{
+  "base_url": "https://project.com",
+  "region": "NA",
+  "hreflangs": [
+    {
+      "lang": "en-us",
+      "code": "en"
+    },
+    {
+      "lang": "es-us",
+      "code": "es"
+    },
+    {
+      "lang": "fr-ca",
+      "code": "fr"
+    }
+  ],
+  "pages": ["", "features", "pricing", "blog", "docs", "about", "contact"]
+}
